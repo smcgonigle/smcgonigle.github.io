@@ -276,7 +276,7 @@
         <div class="col-lg-8 mx-auto">
           <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
           <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-          <form name="sentMessage" id="contactForm" novalidate="novalidate">
+          <!-- <form name="sentMessage" id="contactForm" novalidate="novalidate">
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label>Name</label>
@@ -306,6 +306,11 @@
             <div class="form-group">
               <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
             </div>
+          </form> -->
+          <form method="POST" action="https://formspree.io/skylar.mcgonigle@gmail.com">
+            <input type="email" name="email" placeholder="Your email">
+            <textarea name="message" placeholder="Test Message"></textarea>
+            <button type="submit">Send Test</button>
           </form>
         </div>
       </div>
@@ -316,43 +321,6 @@
   <footer class="footer text-center">
     <div class="container">
       <div class="row">
-        <!-- <div class="col-md-3 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Contact</h4>
-          <p class="lead mb-0">
-            Saskatoon, Saskatchewan<br>
-            <a href="mailto:support@windthrowapps.com">support@windthrowapps.com</a>
-          </p>
-        </div>
-        <div class="col-md-3 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Around the Web</h4>
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item">
-             <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.facebook.com/gpsformatconverter/">
-               <i class="fa fa-fw fa-facebook"></i>
-             </a>
-           </li> 
-           <li class="list-inline-item">
-             <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-               <i class="fa fa-fw fa-google-plus"></i>
-             </a>
-           </li>
-            <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://twitter.com/gpsconverter">
-                <i class="fa fa-fw fa-twitter"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-             <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-               <i class="fa fa-fw fa-linkedin"></i>
-             </a>
-           </li>
-           <li class="list-inline-item">
-             <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-               <i class="fa fa-fw fa-dribbble"></i>
-             </a>
-           </li>
-          </ul>
-        </div> -->
         <div class="col-md-6 mb-5 mb-lg-0">
           <h4 class="text-uppercase mb-4">Apps</h4>
           <p class="lead mb-0">
