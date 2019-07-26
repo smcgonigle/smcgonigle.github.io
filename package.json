@@ -32,6 +32,7 @@
         "fstream": "^1.0.12",
         "jquery": "^3.4.1",
         "jquery.easing": "^1.4.1",
+        "lodash.template": "^4.5.0",
         "magnific-popup": "^1.1.0",
         "sshpk": "^1.16.1"
     },
