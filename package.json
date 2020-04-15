@@ -26,14 +26,20 @@
         "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
     },
     "dependencies": {
+        "array-sort": "^1.0.0",
         "bootstrap": "^4.4.1",
+        "class-utils": "^0.3.6",
         "extend": "^3.0.2",
         "font-awesome": "4.7.0",
         "fstream": "^1.0.12",
-        "jquery": "^3.4.1",
+        "jquery": "^3.5.0",
         "jquery.easing": "^1.4.1",
+        "kind-of": "^6.0.3",
         "lodash.template": "^4.5.0",
         "magnific-popup": "^1.1.0",
+        "micromatch": "^4.0.2",
+        "object-copy": "^1.0.0",
+        "popper.js": "^1.16.1",
         "sshpk": "^1.16.1"
     },
     "devDependencies": {
