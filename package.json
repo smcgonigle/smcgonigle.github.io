@@ -27,7 +27,7 @@
     },
     "dependencies": {
         "array-sort": "^1.0.0",
-        "bootstrap": "^4.5.0",
+        "bootstrap": "^4.5.3",
         "class-utils": "^0.3.6",
         "extend": "^3.0.2",
         "font-awesome": "4.7.0",
@@ -43,7 +43,7 @@
         "sshpk": "^1.16.1"
     },
     "devDependencies": {
-        "browser-sync": "^2.26.10",
+        "browser-sync": "^2.26.13",
         "gulp": "^4.0.2",
         "gulp-clean-css": "^4.3.0",
         "gulp-filter": "^6.0.0",
