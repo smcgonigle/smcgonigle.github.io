@@ -30,7 +30,6 @@
         "bootstrap": "^4.5.3",
         "class-utils": "^0.3.6",
         "extend": "^3.0.2",
-        "font-awesome": "4.7.0",
         "fstream": "^1.0.12",
         "jquery": "^3.5.1",
         "jquery.easing": "^1.4.1",

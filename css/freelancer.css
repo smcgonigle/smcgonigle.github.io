@@ -1,5 +1,5 @@
 body {
-    font-family: Lato
+    font-family: Arial
 }
 
 h1,
@@ -8,8 +8,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 700;
-    font-family: Montserrat
+    font-weight: 600;
+    font-family: Verdana
 }
 
 section {
@@ -57,8 +57,8 @@ section h2 {
 #mainNav {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-weight: 700;
-    font-family: Montserrat
+    font-weight: 600;
+    font-family: Verdana
 }
 
 #mainNav .navbar-brand {
@@ -129,8 +129,8 @@ section h2 {
 }
 
 header.masthead {
-    padding-top: calc(6rem + 72px);
-    padding-bottom: 6rem
+    padding-top: calc(2.5rem + 72px);
+    padding-bottom: 2.5rem
 }
 
 header.masthead h1 {
@@ -141,7 +141,7 @@ header.masthead h1 {
 
 header.masthead h2 {
     font-size: 1.3rem;
-    font-family: Lato
+    font-family: Verdana
 }
 
 @media (min-width:992px) {
