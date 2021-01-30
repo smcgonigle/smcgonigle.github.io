@@ -27,7 +27,7 @@
     },
     "dependencies": {
         "array-sort": "^1.0.0",
-        "bootstrap": "^4.5.3",
+        "bootstrap": "^4.6.0",
         "class-utils": "^0.3.6",
         "extend": "^3.0.2",
         "fstream": "^1.0.12",
@@ -37,6 +37,7 @@
         "lodash.template": "^4.5.0",
         "magnific-popup": "^1.1.0",
         "micromatch": "^4.0.2",
+        "npm-check-updates": "^11.1.1",
         "object-copy": "^1.0.0",
         "popper.js": "^1.16.1"
     },
