@@ -210,7 +210,7 @@ input, select, textarea {
 	}
 
 	h5 {
-		font-size: 0.8em;
+		font-size: 0.9em;
 		line-height: 1.5em;
 	}
 
@@ -220,13 +220,13 @@ input, select, textarea {
 	}
 
 	sub {
-		font-size: 0.8em;
+		font-size: 0.9em;
 		position: relative;
 		top: 0.5em;
 	}
 
 	sup {
-		font-size: 0.8em;
+		font-size: 0.9em;
 		position: relative;
 		top: -0.5em;
 	}
@@ -1937,7 +1937,7 @@ input, select, textarea {
 				border-radius: 3px;
 				content: '';
 				display: inline-block;
-				font-size: 0.8em;
+				font-size: 0.9em;
 				height: 2.0625em;
 				left: 0;
 				line-height: 2.0625em;
@@ -2419,7 +2419,7 @@ input, select, textarea {
 		color: #f6f6f6;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.8em;
+		font-size: 0.9em;
 		font-weight: 600;
 		height: 3.125em;
 		letter-spacing: 0.225em;
@@ -2471,7 +2471,7 @@ input, select, textarea {
 		input[type="button"].small,
 		button.small,
 		.button.small {
-			font-size: 0.8em;
+			font-size: 0.9em;
 		}
 
 		input[type="submit"].large,
@@ -3385,7 +3385,7 @@ input, select, textarea {
 					border: 0;
 					color: inherit;
 					display: block;
-					font-size: 0.8em;
+					font-size: 0.9em;
 					letter-spacing: 0.225em;
 					outline: 0;
 					text-decoration: none;
@@ -3477,7 +3477,7 @@ input, select, textarea {
 				@media screen and (max-width: 736px) {
 
 					#header h1 a {
-						font-size: 0.8em;
+						font-size: 0.9em;
 					}
 
 				}
@@ -3506,7 +3506,7 @@ input, select, textarea {
 						border: 0;
 						color: #f6f6f6;
 						display: block;
-						font-size: 0.8em;
+						font-size: 0.9em;
 						letter-spacing: 0.225em;
 						padding: 0 1.5em;
 						text-transform: uppercase;
@@ -3653,7 +3653,7 @@ input, select, textarea {
 			border: none;
 			bottom: 0;
 			color: inherit;
-			font-size: 0.8em;
+			font-size: 0.9em;
 			height: 8.5em;
 			left: 50%;
 			letter-spacing: 0.225em;
@@ -3904,7 +3904,7 @@ input, select, textarea {
 
 		#footer .copyright {
 			color: rgba(246, 246, 246, 0.5);
-			font-size: 0.8em;
+			font-size: 0.9em;
 			letter-spacing: 0.225em;
 			list-style: none;
 			padding: 0;
@@ -4029,7 +4029,7 @@ ul.contact {
       border-radius: 100%;
       border: solid 2px rgba(246, 246, 246, 0.125);
       display: inline-block;
-      font-size: 0.8em;
+      font-size: 0.9em;
       height: 2.5em;
       left: 0;
       line-height: 2.35em;
