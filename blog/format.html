@@ -73,24 +73,47 @@
 				<!-- Main -->
 					<article id="main">
 						<header>
-							<h2>Reclaim</h2>
-							<p>Sustainable + Secondhand Maternity Baby Kids Clothing</p>
+							<h2>Format A USB Flash / Hard <br> Drive Using PowerShell</h2>
 						</header>
 						<section class="wrapper style5">
 							<div class="inner">
 
-								<h3>About</h3>
-								<p>Reclaim is an inclusively sustainable clothing store for pregnant people and little ones from birth to 5 years. We stock new and used maternity, baby and kids clothing that has been purchased from customers like you.</p>
+              <p>Skylar McGonigle | 2022-06-26<br>
+                OS: Windows</p>
 
-                <p>We stock new Canadian brands that focus on environmentally conscious practices and future friendly textiles. In a world of fast fashion and ever changing trends, it can be incredibly difficult to get the look you want without sacrificing something - that is where Reclaim comes in!</p>
+								<p>Ever try to format a USB drive but it says there's only 2mb on a it?  The following steps will resolve the issue.</p>
+
+                <p>Open PowerShell by hitting the "Start" button and typing in powershell or hit the Windows Key + R and type powershell and run the following commands:</p>
                   
-                <p>Our pieces are carefully selected and curated to keep up with current styles while maintaining accessibility through sustainable practices, low cost to consumer, and our ever changing inventory thanks to our fashion forward customers!</p>
-                
-								<p><a href="https://reclaimsaskatoon.ca">https://reclaimsaskatoon.ca</a></p>
-                <!-- <p><a href="https://www.google.ca/maps/dir//reclaim+saskatoon/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x5304f7460c62ea01:0xc5f1a620d60c4d81?sa=X&amp;ved=2ahUKEwiYgfeCjJX3AhV_j4kEHXWUCBQQ9Rd6BAgCEAU">510 Circle Drive East Unit 20, Saskatoon, Saskatchewan</a></p> -->
-                <p><a href="https://maps.apple.com/?address=20-510%20Circle%20Dr%20E,%20Saskatoon%20SK%20S7K%207C7,%20Canada&auid=4469306896335440436&ll=52.158382,-106.662424&lsp=9902&q=Reclaim%20Maternity%20Baby%20Kids&_ext=CjEKBAgEEGIKBAgFEAMKBAgGEBYKBAgKEAAKBAhSEAEKBAhVEBAKBAhZEAYKBQikARABEiQpUKpc08EISkAxmINlccWzWsA5mQtJ88MfSkBBWIfe3QShWsA%3D&t=m">510 Circle Drive East Unit 20, Saskatoon, Saskatchewan</a></p>
-                <p><a href="tel:13063822229">306.382.BABY (306.382.2229)</a></p>
-                <a href="mailto:theboss@reclaimsaskatoon.ca">theboss@reclaimsaskatoon.ca</a>
+                <p>
+                  <pre>
+<code>diskpart
+list disk
+
+# Replace the # symbol with the disk number you want.
+select disk #
+
+# Confirm you have the right disk.
+detail disk
+
+# Erase all the data on the disk.
+!!! THIS ACTION IS NOT REVERSABLE. CONFIRM YOU HAVE THE RIGHT DISK BEFORE CONTINUING !!!
+clean
+create partition primary
+
+# USB Flash Drive (Skip if formatting a hard drive)
+format fs=fat32 quick
+exit
+exit
+
+# Hard Drive (Skip if formatting a USB/Flash drive)
+format fs=ntfs
+active
+assign
+exit
+exit</code>
+                  </pre>
+                </p>
 
 							</div>
 						</section>
