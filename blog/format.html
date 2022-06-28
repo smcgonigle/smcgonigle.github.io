@@ -78,42 +78,35 @@
 						<section class="wrapper style5">
 							<div class="inner">
 
-              <p>Skylar McGonigle | 2022-06-26<br>
+                <p>Skylar McGonigle | 2022-06-26<br>
                 OS: Windows</p>
 
 								<p>Ever try to format a USB drive but it says there's only 2mb on a it?  The following steps will resolve the issue.</p>
 
                 <p>Open PowerShell by hitting the "Start" button and typing in powershell or hit the Windows Key + R and type powershell and run the following commands:</p>
                   
-                <p>
-                  <pre>
-<code>diskpart
-list disk
+                <pre><code>disk part<br>list disk</code></pre>
 
-# Replace the # symbol with the disk number you want.
-select disk #
+                <p>Replace the # symbol with the disk number you want.</p>
+                <pre><code>select disk #</code></pre>
 
-# Confirm you have the right disk.
-detail disk
+                <p>Confirm you have the right disk.</p>
+                <pre><code>detail disk</code></pre>
 
-# Erase all the data on the disk.
-!!! THIS ACTION IS NOT REVERSABLE. CONFIRM YOU HAVE THE RIGHT DISK BEFORE CONTINUING !!!
-clean
-create partition primary
+                <p>!!! THIS ACTION IS NOT REVERSABLE. CONFIRM YOU HAVE THE RIGHT DISK BEFORE CONTINUING !!!</p>
+                <pre><code>clean<br>create partition primary</code></pre>
 
-# USB Flash Drive (Skip if formatting a hard drive)
-format fs=fat32 quick
-exit
-exit
+                <p>USB Flash Drive (Skip if formatting a hard drive)</p>
+                <pre><code>format fs=fat32 quick<br>exit<br>exit</code></pre>
 
-# Hard Drive (Skip if formatting a USB/Flash drive)
-format fs=ntfs
-active
-assign
-exit
-exit</code>
-                  </pre>
-                </p>
+                <p>Hard Drive (Skip if formatting a USB/Flash drive)</p>
+                <pre><code>format fs=ntfs<br>active<br>assign<br>exit<br>exit</code></pre>
+
+                <p>Confirm you have the right disk.</p>
+                <pre><code>detail disk</code></pre>
+
+                <p>Confirm you have the right disk.</p>
+                <pre><code>detail disk</code></pre>
 
 							</div>
 						</section>
