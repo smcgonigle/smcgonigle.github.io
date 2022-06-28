@@ -277,6 +277,34 @@ input, select, textarea {
 			overflow-x: auto;
 		}
 
+  .pre-wrapper{
+    position:relative;
+  }
+
+  .pre-wrapper .copy-snippet {
+    border-radius: 8px;
+    min-width:60px;
+    background: none repeat scroll 0 0 transparent;
+    color: #26589F;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.42rem;
+    margin: 0;
+    padding: 0px 5px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0;
+    position:absolute;
+    background:#26ada2;
+    top:1em;
+    right:3em;
+  }
+  
+  .pre-wrapper .copy-snippet:disabled{
+    color:#555;
+  }
+
 	.align-left {
 		text-align: left;
 	}
