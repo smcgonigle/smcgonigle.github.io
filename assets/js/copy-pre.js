@@ -38,7 +38,15 @@ jQuery( document).ready(function($){
 			textArea.style.background = 'transparent';
 
 			//Set value to text to be copied
-			textArea.value = $pre.html();
+      function removeHTML(str){ 
+        var tmp = document.createElement("DIV");
+        tmp.innerHTML = str;
+        return tmp.textContent || tmp.innerText || "";
+      }
+
+      text = removeHTML($pre.html());
+
+      textArea.value = text;
 
 			document.body.appendChild(textArea);
 			textArea.select();
