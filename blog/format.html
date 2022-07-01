@@ -85,8 +85,9 @@
 
                 <p>Open PowerShell by hitting the "Start" button and typing in powershell or hit the <kbd>Windows Key</kbd> + <kbd>r</kbd> and type powershell and run the following commands:</p>
                   
-                <pre><code>disk part
-                list disk</code></pre>
+                <pre><code>diskpart</pre></code>
+                  
+                <pre><code>list disk</pre></code>
 
                 <p>Replace the <var>#</var> symbol with the disk number you want.</p>
                 <pre><code>select disk #</code></pre>
@@ -95,19 +96,17 @@
                 <pre><code>detail disk</code></pre>
 
                 <p>!!! THIS ACTION IS NOT REVERSABLE. CONFIRM YOU HAVE THE RIGHT DISK BEFORE CONTINUING !!!</p>
-                <pre><code>clean<br>create partition primary</code></pre>
+                <pre><code>clean</code></pre>
+                <pre><code>create partition primary</code></pre>
 
                 <p>USB Flash Drive (Skip if formatting a hard drive)</p>
-                <pre><code>format fs=fat32 quick<br>exit<br>exit</code></pre>
+                <pre><code>format fs=fat32 quick</code></pre>
 
                 <p>Hard Drive (Skip if formatting a USB/Flash drive)</p>
-                <pre><code>format fs=ntfs<br>active<br>assign<br>exit<br>exit</code></pre>
-
-                <p>Confirm you have the right disk.</p>
-                <pre><code>detail disk</code></pre>
-
-                <p>Confirm you have the right disk.</p>
-                <pre><code>detail disk</code></pre>
+                <pre><code>format fs=ntfs</code></pre>
+                <pre><code>active</code></pre>
+                <pre><code>assign</code></pre>
+                <p>All Done! You can close PowerShell now.</p>
 
 							</div>
 						</section>
