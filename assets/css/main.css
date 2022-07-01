@@ -121,7 +121,7 @@ var {
     font-family: "Helvetica", sans-serif;
 		font-size: 14pt;
 		font-weight: 500;
-		letter-spacing: 0.075em;
+		letter-spacing: 0.05em;
 		line-height: 1.65em;
 	}
 
@@ -155,7 +155,6 @@ var {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		/* border-bottom: dotted 1px; */
 		color: inherit;
 		text-decoration: none;
 	}
@@ -176,7 +175,7 @@ var {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -4285,7 +4284,7 @@ pre {
   border-radius: 16px;
   font-family: "Courier New", monospace;
   font-size: 0.9em;
-  margin: 0 0 2em 0;
+  margin: 0 0 1em 0;
   position: relative;
 }
 
