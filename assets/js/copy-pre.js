@@ -1,65 +1,29 @@
-jQuery( document).ready(function($){
-	var copyid = 0;
-	$('pre').each(function(){
-		copyid++;
-		$(this).attr( 'data-copyid', copyid).wrap( '<div class="pre-wrapper"/>');
-		$(this).parent().css( 'margin', $(this).css( 'margin') );
-		$('<button class="copy-snippet">Copy</button>').insertAfter( $(this) ).data( 'copytarget',copyid );
-	});
+const copyButtonLabel = "Copy";
 
-	$('body').on( 'click', '.copy-snippet', function(ev){
-		ev.preventDefault();
+// use a class selector if available
+let blocks = document.querySelectorAll("pre");
 
-		var $copyButton = $(this);
-
-		$pre = $(document).find('pre[data-copyid=' + $copyButton.data('copytarget' ) + ']');
-		if ( $pre.length ) {
-			var textArea = document.createElement("textarea");
-
-			// Place in top-left corner of screen regardless of scroll position.
-			textArea.style.position = 'fixed';
-			textArea.style.top = 0;
-			textArea.style.left = 0;
-
-			// Ensure it has a small width and height. Setting to 1px / 1em
-			// doesn't work as this gives a negative w/h on some browsers.
-			textArea.style.width = '2em';
-			textArea.style.height = '2em';
-			
-			// We don't need padding, reducing the size if it does flash render.
-			textArea.style.padding = 0;
-
-			// Clean up any borders.
-			textArea.style.border = 'none';
-			textArea.style.outline = 'none';
-			textArea.style.boxShadow = 'none';
-
-			// Avoid flash of white box if rendered for any reason.
-			textArea.style.background = 'transparent';
-
-			//Set value to text to be copied
-      function removeHTML(str){ 
-        var tmp = document.createElement("DIV");
-        tmp.innerHTML = str;
-        return tmp.textContent || tmp.innerText || "";
-      }
-
-      text = removeHTML($pre.html());
-
-      textArea.value = text;
-
-			document.body.appendChild(textArea);
-			textArea.select();
-
-			try {
-				document.execCommand('copy');
-				$copyButton.text( 'Copied').prop('disabled', true);;
-			} catch (err) {
-				$copyButton.text( 'FAILED: Could not copy').prop('disabled', true);;
-			}
-			setTimeout(function(){
-				$copyButton.text( 'Copy').prop('disabled', false);;
-			}, 3000);
-		}
-	});
+blocks.forEach((block) => {
+  // only add a button if browser supports Clipboard API
+  if (navigator.clipboard) {
+    let button = document.createElement("button");
+    button.innerText = copyButtonLabel;
+    button.addEventListener("click", copyCode);
+    block.appendChild(button);
+  }
 });
+
+async function copyCode(event) {
+  const button = event.srcElement;
+  const pre = button.parentElement;
+  let code = pre.querySelector("code");
+  let text = code.innerText;
+  await navigator.clipboard.writeText(text);
+  
+  button.innerText = "Copied";
+
+  setTimeout(()=> {
+    button.innerText = copyButtonLabel;
+  },1500)
+}
+

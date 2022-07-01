@@ -3433,7 +3433,8 @@ var {
           .wrapper.style6 input[type="button"]:hover,
           .wrapper.style6 button:hover,
           .wrapper.style6 .button:hover {
-            color: #4E4852;
+            color: #2E3842;
+            background: #26ada2;
           }
   
         @media screen and (max-width: 736px) {
@@ -4271,7 +4272,7 @@ code {
   background: rgba(144, 144, 144, 0.25);
   border-radius: 3px;
   font-family: "Courier New", monospace;
-  font-size: 1em;
+  font-size: 1.1em;
   color: #b0ddda;
   letter-spacing: 0;
   margin: 0 0.25em;
@@ -4285,6 +4286,7 @@ pre {
   font-family: "Courier New", monospace;
   font-size: 0.9em;
   margin: 0 0 2em 0;
+  position: relative;
 }
 
   pre code {
@@ -4292,39 +4294,50 @@ pre {
     line-height: 1.75em;
     padding: 1em 1.5em;
     overflow-x: auto;
-    white-space: normal;
+    white-space: pre-line;
   }
 
-.pre-wrapper{
-  position:relative;
-}
-
-.pre-wrapper .copy-snippet {
+button{
+  position: absolute;
+  top: 6px;
+  right: 6px;
   border-radius: 8px;
   min-width:80px;
-  /* background: none repeat scroll 0 0 transparent; */
-  /* color: #26589F; */
+  background-color:#26ada2;
+  font-family: "Helvetica", sans-serif;
+  font-size: 0.7em;
+}
+
+/* .pre-wrapper{
+  position:relative;
+} */
+
+/* .pre-wrapper .copy-snippet {
+  border-radius: 8px;
+  min-width:80px;
+  background: none repeat scroll 0 0 transparent;
+  color: #26589F;
   font-family: "Helvetica", sans-serif;
   font-size: 0.6em;
-  /* line-height: 1.42rem; */
-  /* margin: 0; */
+  line-height: 1.42rem;
+  margin: 0;
   padding: 0px 5px;
-  /* text-align: center; */
-  /* text-decoration: none; */
-  /* text-indent: 0; */
+  text-align: center;
+  text-decoration: none;
+  text-indent: 0;
   position:absolute;
   background-color:#26ada2;
   color: #f6f6f6;
   top:6px;
   right:6px;
-}
+} */
 
-.pre-wrapper .copy-snippet input[type="button"]:hover
+/* .pre-wrapper .copy-snippet input[type="button"]:hover
 .pre-wrapper .copy-snippet button, 
 .pre-wrapper .copy-snippet .button {
   background-color: #26ada2;
-}
+} */
 
-.pre-wrapper .copy-snippet:disabled{
+/* .pre-wrapper .copy-snippet:disabled{
   color: #4E4852;
-}
+} */
