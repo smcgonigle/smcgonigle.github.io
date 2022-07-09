@@ -8,33 +8,32 @@
 
 	<head>
 
-    <!--Recommended Meta Tags-->
+    <!-- The following 2 meta tags *must* come first in the <head> to consistently ensure proper document rendering.Any other head element should come *after* these tags. -->
     <meta charset="utf-8">
-    <meta name="language" content="en-CA">
-    <meta name="author" content="">
-    <meta name="designer" content=””>
-    <meta name="publisher" content=””>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+
+    <!-- Theme Color for Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#181b26">
 
     <!--Search Engine Optimization Meta Tags-->
-    <title>Bitwire Blog</title>
-    <meta name="description" content="">
-    <meta name=”robots” content=”index,follow”>
-    <meta name="revisit-after" content="7 days">
+    <title>Format A USB Flash / Hard Drive Using PowerShell</title>
+    <meta name="description" content="How to Format A USB Flash / Hard Drive Using PowerShell">
 
-    <!--Optional Meta Tags-->
-    <meta name="web_author" content="">
-    <meta name="rating" content="general">
-    <meta name="rating" content="safe for kids">
-    <meta name="title" content="Bitwire Technologies">
-    <meta name="copyright" content="Copyright 2021">
-    <meta name="reply-to" content="">
-    <meta name=”city” content=””>
-    <meta name=”country” content=”Canada”>
+    <!-- Control the behavior of search engine crawling and indexing -->
+    <meta name="robots" content="index,follow"> <!-- All Search Engines -->
+    <meta name="googlebot" content="index,follow"> <!-- Google Specific -->
 
-    <!--Meta Tags for HTML pages on Mobile-->
-    <meta name="format-detection" content="telephone=yes" />
-    <meta name="HandheldFriendly" content="true" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+    <!-- Gives a general age rating based on the document's content -->
+    <meta name="rating" content="General">
+
+    <!-- Disable automatic detection and formatting of possible phone numbers -->
+    <meta name="format-detection" content="telephone=yes">
+
+    <!-- Geo tags -->
+    <!-- <meta name="ICBM" content="latitude, longitude"> -->
+    <!-- <meta name="geo.position" content="latitude;longitude"> -->
+    <meta name="geo.region" content="CA"> <!-- Country code (ISO 3166-1): mandatory, state code (ISO 3166-2): optional; eg. content="US" / content="US-NY" -->
+    <!-- <meta name="geo.placename" content="city/town"> --> <!-- eg. content="New York City" -->
 
     <!-- Stylesheet -->
 		<link rel="stylesheet" href="/assets/css/main.css" />
@@ -73,14 +72,24 @@
 				<!-- Main -->
 					<article id="main">
 						<header>
-							<h2>Format A USB Flash / Hard <br> Drive Using PowerShell</h2>
+							<p><h2>Format A USB Flash / Hard Drive Using PowerShell</h2></p>
+              <img src="/images/format.jpg" alt="The internal workings of a hard drive" style="width:500px"></a>
 						</header>
+
+            <div class="icon-bar">
+              <a href="https://www.facebook.com/sharer/sharer.php?u=https://bitwiretech.ca/blog/format" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://bitwiretech.ca/blog/format" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://old.reddit.com/submit?url=https://bitwiretech.ca/blog/format" target="_blank"><i class="fa-brands fa-reddit"></i></a>
+              <a href="https://www.twitter.com/share?url=https://bitwiretech.ca/blog/format" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+
 						<section class="wrapper style6">
+
 							<div class="inner">
                 
-                Skylar McGonigle | 2022-06-26<!-- |&emsp;<a href="" class="fa-brands fa-facebook-f"></a> &emsp;<a href="" class="fa-brands fa-instagram"></a> &emsp;<a href="" class="fa-brands fa-tiktok"></a> &emsp;<a href="" class="fa-solid fa-podcast"></a> -->
+                Skylar McGonigle | 2022-06-26
                 <p>OS: Windows 10</p>
-
+                
 								<p >Ever try to format a USB drive but it says there's only 2mb on a it?  The following steps will resolve the issue.</p>
 
                 <p>Open PowerShell by hitting the "Start" button and typing in powershell or hit the <kbd>Windows Key</kbd> + <kbd>r</kbd> and type powershell and run the following commands:</p>
@@ -107,13 +116,6 @@
                 <pre><code>active</code></pre>
                 <pre><code>assign</code></pre>
                 <p>All Done! You can close PowerShell.</p>
-
-                <!-- <ul class="icons">
-                  <li><a href="" class="fa-brands fa-facebook-f"></a></li>
-                  <li><a href="" class="fa-brands fa-instagram"></a></li>
-                  <li><a href="" class="fa-brands fa-tiktok"></a></li>
-                  <li><a href="" class="fa-solid fa-podcast"></a></li>
-                </ul> -->
 
 							</div>
 						</section>

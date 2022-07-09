@@ -3432,7 +3432,7 @@ var {
           .wrapper.style6 input[type="button"]:hover,
           .wrapper.style6 button:hover,
           .wrapper.style6 .button:hover {
-            color: #2E3842;
+            color: #181b26;
             background: #26ada2;
           }
   
@@ -4307,36 +4307,27 @@ button{
   font-size: 0.7em;
 }
 
-/* .pre-wrapper{
-  position:relative;
-} */
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+position: fixed;
+top: 45%;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+}
 
-/* .pre-wrapper .copy-snippet {
-  border-radius: 8px;
-  min-width:80px;
-  background: none repeat scroll 0 0 transparent;
-  color: #26589F;
-  font-family: "Helvetica", sans-serif;
-  font-size: 0.6em;
-  line-height: 1.42rem;
-  margin: 0;
-  padding: 0px 5px;
-  text-align: center;
-  text-decoration: none;
-  text-indent: 0;
-  position:absolute;
-  background-color:#26ada2;
-  color: #f6f6f6;
-  top:6px;
-  right:6px;
-} */
+/* Style the icon bar links */
+.icon-bar a {
+display: block;
+text-align: center;
+padding: 16px;
+transition: all 0.3s ease;
+color: #181b26;
+font-size: 28px;
+}
 
-/* .pre-wrapper .copy-snippet input[type="button"]:hover
-.pre-wrapper .copy-snippet button, 
-.pre-wrapper .copy-snippet .button {
-  background-color: #26ada2;
-} */
-
-/* .pre-wrapper .copy-snippet:disabled{
-  color: #4E4852;
-} */
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+background-color: #181b26;
+color: #00f0ff;
+}
