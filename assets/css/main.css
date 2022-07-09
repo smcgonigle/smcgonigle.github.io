@@ -4304,7 +4304,7 @@ button{
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
 position: fixed;
-top: 60%;
+top: 65%;
 right: 0%;
 -webkit-transform: translateY(-50%);
 -ms-transform: translateY(-50%);
