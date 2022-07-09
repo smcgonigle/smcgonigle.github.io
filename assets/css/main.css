@@ -4328,3 +4328,7 @@ font-size: 1.25em;
 background-color: #181b26;
 color: #b0ddda;
 }
+
+.facebook {
+  border-radius: 16px 0 0 0;
+}
