@@ -3951,7 +3951,7 @@ var {
 /* Main */
 
 	#main > header {
-		padding: 4em 0 4em 0 ;
+		padding: 3em 0 4em 0 ;
 		background-image: -moz-linear-gradient(top, rgba(24,27,38,1), rgba(24,27,38,1)), url("../../images/banner.png");
 		background-image: -webkit-linear-gradient(top, rgba(24,27,38,1), rgba(24,27,38,1)), url("../../images/banner.png");
 		background-image: -ms-linear-gradient(top, rgba(24,27,38,1), rgba(24,27,38,1)), url("../../images/banner.png");
@@ -4317,7 +4317,7 @@ transform: translateY(-50%); */
 display:block;
 text-align: center;
 padding: 0.8em;
-transition: all 0.3s ease;
+transition: all 0.2s ease;
 background-color: #181b26;
 color: #26ada2;
 font-size: 1.25em;
