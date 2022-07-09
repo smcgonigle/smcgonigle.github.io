@@ -4304,12 +4304,11 @@ button{
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
 position: fixed;
-bottom: -2.05em;
-left: 1.05em;
+top: 50%;
+right: 0%;
 -webkit-transform: translateY(-50%);
 -ms-transform: translateY(-50%);
 transform: translateY(-50%);
-z-index: 10002;
 }
 
 /* Style the icon bar links */
