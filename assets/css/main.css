@@ -2746,7 +2746,7 @@ var {
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 980px) {
 
 			.spotlight {
 				display: block;
@@ -2796,7 +2796,7 @@ var {
 
 			}
 
-			@media screen and (max-width: 1280px) {
+			@media screen and (max-width: 980px) {
 
 				.wrapper > .inner {
 					width: 100%;
