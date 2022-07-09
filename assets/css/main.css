@@ -3444,13 +3444,13 @@ var {
 
 		@media screen and (max-width: 980px) {
 			.wrapper {
-				padding: 4em 5em 2em 3em;
+				padding: 4em 6em 2em 3em;
 			}
 		}
 
 		@media screen and (max-width: 736px) {
 			.wrapper {
-				padding: 3em 4em 1em 2em;
+				padding: 3em 5em 1em 2em;
 			}
 		}
 
@@ -4304,7 +4304,7 @@ button{
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
 position: fixed;
-top: 45%;
+top: 40%;
 right: 0%;
 -webkit-transform: translateY(-50%);
 -ms-transform: translateY(-50%);
