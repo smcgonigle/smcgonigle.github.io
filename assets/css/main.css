@@ -4285,7 +4285,7 @@ pre {
   pre code {
     display: block;
     line-height: 1.75em;
-    padding: 1em 1.5em;
+    padding: 1em 9em 1em 1.5em;
     overflow-x: auto;
     white-space: pre-line;
   }
@@ -4295,7 +4295,7 @@ button{
   top: 6px;
   right: 6px;
   border-radius: 8px;
-  min-width:80px;
+  min-width:11em;
   background-color:#26ada2;
   font-family: "Helvetica", sans-serif;
   font-size: 0.7em;
