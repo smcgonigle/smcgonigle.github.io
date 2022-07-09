@@ -3437,27 +3437,21 @@ var {
           }
   
         @media screen and (max-width: 736px) {
-  
           .wrapper.style6 .features li {
             border-top-color: #dfdfdf;
           }
-  
         }
 
 		@media screen and (max-width: 980px) {
-
 			.wrapper {
-				padding: 4em 3em 2em 3em ;
+				padding: 4em 5em 2em 3em;
 			}
-
 		}
 
 		@media screen and (max-width: 736px) {
-
 			.wrapper {
-				padding: 3em 2em 1em 2em ;
+				padding: 3em 4em 1em 2em;
 			}
-
 		}
 
 /* Page Wrapper + Menu */
@@ -3555,7 +3549,7 @@ var {
 			position: absolute;
 			right: 0;
 			top: 0;
-      vertical-align: middle;
+      /* vertical-align: middle; */
 			width: 7em;
 		}
 
@@ -4311,6 +4305,7 @@ button{
 .icon-bar {
 position: fixed;
 top: 45%;
+right: 0%;
 -webkit-transform: translateY(-50%);
 -ms-transform: translateY(-50%);
 transform: translateY(-50%);
@@ -4318,16 +4313,17 @@ transform: translateY(-50%);
 
 /* Style the icon bar links */
 .icon-bar a {
-display: block;
+display:block;
 text-align: center;
-padding: 16px;
+padding: 0.8em;
 transition: all 0.3s ease;
-color: #181b26;
-font-size: 28px;
+background-color: #181b26;
+color: #26ada2;
+font-size: 1.25em;
 }
 
 /* Style the social media icons with color, if you want */
 .icon-bar a:hover {
 background-color: #181b26;
-color: #00f0ff;
+color: #b0ddda;
 }
