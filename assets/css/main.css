@@ -4285,9 +4285,9 @@ pre {
   pre code {
     display: block;
     line-height: 1.75em;
-    padding: 1em 9em 1em 1.5em;
+    padding: 1em 1.5em;
+    margin-right: 9em;
     overflow-x: auto;
-    white-space: pre-line;
   }
 
 button{
