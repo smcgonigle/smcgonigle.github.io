@@ -1789,19 +1789,15 @@ var {
 		}
 
 		@media screen and (max-width: 736px) {
-
 			header.major {
 				margin: 0 0 2em 0;
 			}
-
 		}
 
 	@media screen and (max-width: 1280px) {
-
 		header br {
 			display: none;
 		}
-
 	}
 
 /* Form */
@@ -2789,19 +2785,15 @@ var {
 		}
 
 			@media screen and (max-width: 1280px) {
-
 				.wrapper > .inner {
 					width: 90%;
 				}
-
 			}
 
 			@media screen and (max-width: 980px) {
-
 				.wrapper > .inner {
 					width: 100%;
 				}
-
 			}
 
 		.wrapper.alt {
@@ -3667,23 +3659,18 @@ var {
 							}
 
 							@media screen and (max-width: 736px) {
-
 								#header nav > ul > li > a.menuToggle {
 									padding: 0 1.5em;
 								}
-
 									#header nav > ul > li > a.menuToggle span {
 										display: none;
 									}
-
 							}
 
 						@media screen and (max-width: 736px) {
-
 							#header nav > ul > li > a {
 								padding: 0 0 0 1.5em;
 							}
-
 						}
 
 					#header nav > ul > li:first-child {
@@ -3941,11 +3928,9 @@ var {
 		}
 
 		@media screen and (max-width: 736px) {
-
 			#cta .inner .actions {
 				max-width: none;
 			}
-
 		}
 
 /* Main */
@@ -3988,7 +3973,6 @@ var {
 		}
 
 		@media screen and (max-width: 1280px) {
-
 			#main > header {
 				padding: 8em 3em 6em 3em ;
 			}
@@ -3996,7 +3980,6 @@ var {
 		}
 
 		@media screen and (max-width: 980px) {
-
 			#main > header {
 				padding: 10em 3em 8em 3em ;
 			}
@@ -4004,11 +3987,9 @@ var {
 		}
 
 		@media screen and (max-width: 736px) {
-
 			#main > header {
 				padding: 5em 3em 3em 3em ;
 			}
-
 				#main > header h2 {
 					font-size: 1.25em;
 					margin: 0 0 1em 0;
@@ -4084,19 +4065,15 @@ var {
 				}
 
 		@media screen and (max-width: 1280px) {
-
 			#footer {
 				padding: 4em 3em 2em 3em ;
 			}
-
 		}
 
 		@media screen and (max-width: 736px) {
-
 			#footer {
 				padding: 3em 2em 1em 2em ;
 			}
-
 		}
 
 /* Landing */
