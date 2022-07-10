@@ -3278,11 +3278,9 @@ var {
 				}
 
 			@media screen and (max-width: 736px) {
-
 				.wrapper.style5 .features li {
 					border-top-color: #dfdfdf;
 				}
-
 			}
 
       .wrapper.style6 {
@@ -3546,11 +3544,9 @@ var {
 		}
 
 		@media screen and (max-width: 736px) {
-
 			#menu {
 				padding: 3em 1.5em;
 			}
-
 		}
 
 	body.is-menu-visible #page-wrapper {
