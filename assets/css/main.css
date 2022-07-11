@@ -3127,7 +3127,7 @@ var {
 
 		.wrapper.style5 {
 			background-color: #f6f6f6;
-			color: #4E4852;
+			color: #181b26;
 		}
 
 			.wrapper.style5 strong, .wrapper.style5 b {
@@ -3159,7 +3159,7 @@ var {
 			}
 
 			.wrapper.style5 header.major p {
-				color: #4E4852;
+				color: #181b26;
 			}
 
 			.wrapper.style5 label {
@@ -3185,7 +3185,7 @@ var {
 
 			.wrapper.style5 input[type="checkbox"] + label,
 			.wrapper.style5 input[type="radio"] + label {
-				color: #4E4852;
+				color: #181b26;
 			}
 
 				.wrapper.style5 input[type="checkbox"] + label:before,
@@ -3284,7 +3284,7 @@ var {
 
       .wrapper.style6 {
         background-color: #f6f6f6;
-        color: #4E4852;
+        color: #181b26;
       }
   
         .wrapper.style6 strong, .wrapper.style6 b {
@@ -3316,7 +3316,7 @@ var {
         }
   
         .wrapper.style6 header.major p {
-          color: #4E4852;
+          color: #181b26;
         }
   
         .wrapper.style6 label {
@@ -3342,7 +3342,7 @@ var {
   
         .wrapper.style6 input[type="checkbox"] + label,
         .wrapper.style6 input[type="radio"] + label {
-          color: #4E4852;
+          color: #181b26;
         }
   
           .wrapper.style6 input[type="checkbox"] + label:before,
@@ -3439,7 +3439,7 @@ var {
 
 		@media screen and (max-width: 736px) {
 			.wrapper {
-				padding: 3em 2em 3em 2em;
+				padding: 3em 1em 3em 1em;
 			}
 		}
 
