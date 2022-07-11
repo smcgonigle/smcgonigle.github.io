@@ -3413,7 +3413,7 @@ var {
         .wrapper.style6 input[type="button"],
         .wrapper.style6 button,
         .wrapper.style6 .button {
-          box-shadow: inset 0 0 0 2px #dfdfdf;
+          box-shadow: inset 0 0 0 0 #dfdfdf;
         }
   
           .wrapper.style6 input[type="submit"]:hover,
