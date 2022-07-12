@@ -3439,7 +3439,7 @@ var {
 
 		@media screen and (max-width: 736px) {
 			.wrapper {
-				padding: 2em 2em 2em 2em;
+				padding: 2em 1.5em 2em 1.5em;
 			}
 		}
 
