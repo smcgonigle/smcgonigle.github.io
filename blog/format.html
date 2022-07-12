@@ -115,7 +115,7 @@
             
             <p >Ever try to format a USB drive but it says there's only 2mb on a it?  The following steps will resolve the issue.</p>
 
-            <p>Open PowerShell by hitting the "Start" button and typing in powershell or hit the <kbd>Windows Key</kbd> + <kbd>r</kbd> and type powershell and run the following commands:</p>
+            <p>Open PowerShell by hitting the "Start" button and typing <var>powershell</var> or hit the <kbd>Windows Key</kbd> + <kbd>r</kbd> and type <em>powershell</em> and run the following commands:</p>
               
             <pre><code>diskpart</pre></code>
               
@@ -124,17 +124,18 @@
             <p>Replace the <var>#</var> symbol with the disk number you want.</p>
             <pre><code>select disk #</code></pre>
 
-            <p>Confirm you have the right disk.</p>
+            <p>Confirm you have the right disk:</p>
             <pre><code>detail disk</code></pre>
 
-            <p><strong style="color: red">WARNING: The next action will completely erase all data on the drive. Confirm you have the right disk before continuing.</strong></p>
+            <p><strong style="color: red">WARNING: The next action will completely erase all data on the disk. Confirm you have the right disk before continuing.</strong><br></p>
+            <p>Erase the disk:</p>
             <pre><code>clean</code></pre>
             <pre><code>create partition primary</code></pre>
 
-            <p>USB Flash Drive (Skip if formatting a hard drive):</p>
+            <p>Format the USB Flash Drive (Skip if formatting a hard drive):</p>
             <pre><code>format fs=fat32 quick</code></pre>
 
-            <p>Hard Drive (Skip if formatting a USB flash drive):</p>
+            <p>Format the Hard Drive (Skip if formatting a USB flash drive):</p>
             <pre><code>format fs=ntfs</code></pre>
             <pre><code>active</code></pre>
             <pre><code>assign</code></pre>
