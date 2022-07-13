@@ -4274,16 +4274,15 @@ pre {
   -webkit-overflow-scrolling: touch;
   background-color: #181b26;
   border-radius: 12px;
-  font-family: "Courier New", monospace;
-  font-size: 0.9em;
   margin: 0 0 1.25em 0;
   position: relative;
 }
 
   pre code {
     color: #b0ddda;
+    font-family: "Courier New", monospace;
     display: block;
-    line-height: 1.75em;
+    line-height: 1.5em;
     padding: 1em 1.5em;
     overflow-x: auto;
   }
