@@ -118,6 +118,12 @@ var {
   height: 15em;
 }
 
+.accent4 { 
+	background: #368780; 
+  color: #f6f6f6;
+  height: 15em;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -3508,7 +3514,7 @@ var {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #26ada2;
+		background: #368780;
 		color: #f6f6f6;
 		height: 100%;
 		max-width: 80%;
