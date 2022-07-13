@@ -4273,7 +4273,7 @@ ul.pagination {
 pre {
   -webkit-overflow-scrolling: touch;
   background-color: #181b26;
-  border-radius: 16px;
+  border-radius: 12px;
   font-family: "Courier New", monospace;
   font-size: 0.9em;
   margin: 0 0 1.25em 0;
@@ -4328,5 +4328,5 @@ transform: translateY(-50%); */
   }
 
   .facebook {
-    border-radius: 16px 0 0 0;
+    border-radius: 12px 0 0 0;
   }
