@@ -4301,8 +4301,8 @@ pre {
 
 button{
   position: absolute;
-  top: 6px;
-  right: 6px;
+  top: 10px;
+  right: 10px;
   border-radius: 8px;
   min-width:10em;
   background-color:#26ada2;
