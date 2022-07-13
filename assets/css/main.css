@@ -119,7 +119,7 @@ var {
 }
 
 .accent4 { 
-	background: #368780; 
+	background: #317A74; 
   color: #f6f6f6;
   height: 15em;
 }
@@ -4293,7 +4293,7 @@ pre {
     right: 8px;
     border-radius: 8px;
     min-width:10em;
-    background-color:#26ada2;
+    background-color:#368780;
     font-family: "Helvetica", sans-serif;
     font-size: 0.65em;
   }
@@ -4316,7 +4316,7 @@ transform: translateY(-50%); */
   padding: 0.8em;
   transition: all 0.2s ease;
   background-color: #181b26;
-  color: #6bc5be;
+  color: #26ada2;
   font-size: 1.25em;
   }
 
