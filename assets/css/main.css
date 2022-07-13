@@ -2305,17 +2305,17 @@ var {
 
 					ul.actions:not(.fixed) li input[type="submit"],
 					ul.actions:not(.fixed) li input[type="reset"],
-					ul.actions:not(.fixed) li input[type="button"],
-					ul.actions:not(.fixed) li button,
-					ul.actions:not(.fixed) li .button {
+					ul.actions:not(.fixed) li input[type=""],
+					ul.actions:not(.fixed) li ,
+					ul.actions:not(.fixed) li {
 						width: 100%;
 					}
 
 						ul.actions:not(.fixed) li input[type="submit"].icon:before,
 						ul.actions:not(.fixed) li input[type="reset"].icon:before,
-						ul.actions:not(.fixed) li input[type="button"].icon:before,
-						ul.actions:not(.fixed) li button.icon:before,
-						ul.actions:not(.fixed) li .button.icon:before {
+						ul.actions:not(.fixed) li input[type=""].icon:before,
+						ul.actions:not(.fixed) li .icon:before,
+						ul.actions:not(.fixed) li .icon:before {
 							margin-left: -0.5em;
 						}
 
@@ -2421,11 +2421,11 @@ var {
 				border-top: 0;
 			}
 
-/* Button */
+/*  */
 
 	input[type="submit"],
 	input[type="reset"],
-	input[type="button"],
+	input[type=""],
 	button,
 	.button {
 		-moz-appearance: none;
@@ -2511,7 +2511,7 @@ var {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ed4933;
+			background-color: #CC3E2C;
 			box-shadow: none !important;
 			color: #f6f6f6 !important;
 		}
@@ -4288,7 +4288,7 @@ pre {
     overflow-x: auto;
   }
 
-  pre button {
+  pre button{
     position: absolute;
     top: 8px;
     right: 8px;
@@ -4330,3 +4330,9 @@ transform: translateY(-50%); */
   .facebook {
     border-radius: 12px 0 0 0;
   }
+
+/* Blog Title */
+.blog {
+  color: #317A74;
+  font-weight: 600;
+}
