@@ -4281,6 +4281,7 @@ pre {
   pre code {
     color: #b0ddda;
     font-family: "Courier New", monospace;
+    font-weight: 500;
     display: block;
     line-height: 1.5em;
     padding: 1em 1.5em;
