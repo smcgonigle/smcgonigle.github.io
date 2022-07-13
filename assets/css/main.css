@@ -4321,23 +4321,23 @@ z-index: 1;
 transform: translateY(-50%); */
 }
 
-/* Style the icon bar links */
-.icon-bar a {
-display:block;
-text-align: center;
-padding: 0.8em;
-transition: all 0.2s ease;
-background-color: #181b26;
-color: #26ada2;
-font-size: 1.25em;
-}
+  /* Style the icon bar links */
+  .icon-bar a {
+  display:block;
+  text-align: center;
+  padding: 0.8em;
+  transition: all 0.2s ease;
+  background-color: #181b26;
+  color: #6bc5be;
+  font-size: 1.25em;
+  }
 
-/* Style the social media icons with color, if you want */
-.icon-bar a:hover {
-background-color: #181b26;
-color: #b0ddda;
-}
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+  background-color: #181b26;
+  color: #b0ddda;
+  }
 
-.facebook {
-  border-radius: 16px 0 0 0;
-}
+  .facebook {
+    border-radius: 16px 0 0 0;
+  }
