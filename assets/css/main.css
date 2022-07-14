@@ -139,7 +139,7 @@ var {
 	}
 
 	body {
-		background: #2e3842;
+		background: #181b26;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1974,7 +1974,7 @@ var {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #2e3842;
+			background: #181b26;
 			color: #f6f6f6;
 			content: '\f00c';
 		}
@@ -2030,8 +2030,15 @@ var {
 		.box.alt {
 			border: 0;
 			border-radius: 0;
+			padding: 0 3em 0 3em;
+		}
+
+		.box.nopadding {
+			border: 0;
+			border-radius: 0;
 			padding: 0;
 		}
+
 
 /* Icon */
 
@@ -2157,6 +2164,17 @@ var {
 			.image.fit img {
 				width: 100%;
 			}
+    
+    .image.center {
+      border-radius: 3px;
+      width: 50%;
+      text-align: center;
+    }
+
+      .image.center img {
+        border-radius: 3px;
+        width: 100%;
+      }
 
 /* List */
 
@@ -2996,7 +3014,7 @@ var {
 			}
 
 		.wrapper.style2 {
-			background-color: #2e3842;
+			background-color: #181b26;
 		}
 
 		.wrapper.style3 {
@@ -3168,11 +3186,11 @@ var {
 		}
 
 			.wrapper.style5 strong, .wrapper.style5 b {
-				color: #2E3842;
+				color: #181b26;
 			}
 
 			.wrapper.style5 h2, .wrapper.style5 h3, .wrapper.style5 h4, .wrapper.style5 h5, .wrapper.style5 h6 {
-				color: #2E3842;
+				color: #181b26;
 			}
 
 			.wrapper.style5 hr {
@@ -3200,7 +3218,7 @@ var {
 			}
 
 			.wrapper.style5 label {
-				color: #2E3842;
+				color: #181b26;
 			}
 
 			.wrapper.style5 input[type="text"],
@@ -3216,7 +3234,7 @@ var {
 			}
 
 				.wrapper.style5 select option {
-					color: #2E3842;
+					color: #181b26;
 					background: #f6f6f6;
 				}
 
@@ -3232,7 +3250,7 @@ var {
 
 			.wrapper.style5 input[type="checkbox"]:checked + label:before,
 			.wrapper.style5 input[type="radio"]:checked + label:before {
-				background: #2E3842;
+				background: #181b26;
 				color: #f6f6f6;
 			}
 
@@ -3273,7 +3291,7 @@ var {
 				}
 
 			.wrapper.style5 table th {
-				color: #2E3842;
+				color: #181b26;
 			}
 
 			.wrapper.style5 table thead {
@@ -3294,7 +3312,7 @@ var {
 			.wrapper.style5 button,
 			.wrapper.style5 .button {
 				box-shadow: inset 0 0 0 2px #dfdfdf;
-				color: #2E3842;
+				color: #181b26;
 			}
 
 				.wrapper.style5 input[type="submit"]:hover,
@@ -3325,11 +3343,11 @@ var {
       }
   
         .wrapper.style6 strong, .wrapper.style6 b {
-          color: #2E3842;
+          color: #181b26;
         }
   
         .wrapper.style6 h2, .wrapper.style6 h3, .wrapper.style6 h4, .wrapper.style6 h5, .wrapper.style6 h6 {
-          color: #2E3842;
+          color: #181b26;
         }
   
         .wrapper.style6 hr {
@@ -3357,7 +3375,7 @@ var {
         }
   
         .wrapper.style6 label {
-          color: #2E3842;
+          color: #181b26;
         }
   
         .wrapper.style6 input[type="text"],
@@ -3373,7 +3391,7 @@ var {
         }
   
           .wrapper.style6 select option {
-            color: #2E3842;
+            color: #181b26;
             background: #f6f6f6;
           }
   
@@ -3389,7 +3407,7 @@ var {
   
         .wrapper.style6 input[type="checkbox"]:checked + label:before,
         .wrapper.style6 input[type="radio"]:checked + label:before {
-          background: #2E3842;
+          background: #181b26;
           color: #f6f6f6;
         }
   
@@ -3430,7 +3448,7 @@ var {
           }
   
         .wrapper.style6 table th {
-          color: #2E3842;
+          color: #181b26;
         }
   
         .wrapper.style6 table thead {
@@ -3458,7 +3476,7 @@ var {
           .wrapper.style6 input[type="button"]:hover,
           .wrapper.style6 button:hover,
           .wrapper.style6 .button:hover {
-            color: #181b26;
+            color: #f6f6f6;
             background: #26ada2;
           }
   
@@ -3509,10 +3527,10 @@ var {
 		-webkit-transform: translateX(20em);
 		-ms-transform: translateX(20em);
 		transform: translateX(20em);
-		-moz-transition: -moz-transform 0.5s ease;
-		-webkit-transition: -webkit-transform 0.5s ease;
-		-ms-transition: -ms-transform 0.5s ease;
-		transition: transform 0.5s ease;
+		-moz-transition: -moz-transform 0.3s ease;
+		-webkit-transition: -webkit-transform 0.3s ease;
+		-ms-transition: -ms-transform 0.3s ease;
+		transition: transform 0.3s ease;
 		-webkit-overflow-scrolling: touch;
 		background: #368780;
 		color: #f6f6f6;
@@ -3851,7 +3869,7 @@ var {
 			-ms-transition-delay: 0.2s;
 			transition-delay: 0.2s;
 			content: '';
-			background: #2e3842;
+			background: #181b26;
 			display: block;
 			width: 100%;
 			height: 100%;
@@ -3968,16 +3986,14 @@ var {
 /* Main */
 
 	#main > header {
-		padding: 3em 0 4em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(24,27,38,1), rgba(24,27,38,1)), url("../../images/banner-background.png");
-		background-image: -webkit-linear-gradient(top, rgba(24,27,38,1), rgba(24,27,38,1)), url("../../images/banner-background.png");
-		background-image: -ms-linear-gradient(top, rgba(24,27,38,1), rgba(24,27,38,1)), url("../../images/banner-background.png");
-		background-image: linear-gradient(top, rgba(24,27,38,1), rgba(24,27,38,1)), url("../../images/banner-background.png");
+		padding: 3em 0 3em 0 ;
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		text-align: center;
+    width: 60em;
+		margin: 0 auto;
 	}
 
 		#main > header h2 {
@@ -3996,31 +4012,23 @@ var {
 				color: inherit;
 			}
 
-		@media screen and (max-width: 1680px) {
-
-			#main > header {
-				padding: 10em 0 8em 0 ;
-			}
-
-		}
-
 		@media screen and (max-width: 1280px) {
 			#main > header {
-				padding: 8em 3em 6em 3em ;
+        width: 90%;
 			}
 
 		}
 
 		@media screen and (max-width: 980px) {
 			#main > header {
-				padding: 10em 3em 8em 3em ;
+        width: 90%;
 			}
 
 		}
 
 		@media screen and (max-width: 736px) {
 			#main > header {
-				padding: 5em 3em 3em 3em ;
+        width: 90%;
 			}
 				#main > header h2 {
 					font-size: 1.25em;
@@ -4111,10 +4119,6 @@ var {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(24,27,38,1), rgba(24,27,38,1)), url("../../images/banner-background.png");
-		background-image: -webkit-linear-gradient(top, rgba(24,27,38,1), rgba(24,27,38,1)), url("../../images/banner-background.png");
-		background-image: -ms-linear-gradient(top, rgba(24,27,38,1), rgba(24,27,38,1)), url("../../images/banner-background.png");
-		background-image: linear-gradient(top, rgba(24,27,38,1), rgba(24,27,38,1)), url("../../images/banner-background.png");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -4132,10 +4136,6 @@ var {
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(24,27,38,1), rgba(24,27,38,1)), url("../../images/banner-background.png");
-		background-image: -webkit-linear-gradient(top, rgba(24,27,38,1), rgba(24,27,38,1)), url("../../images/banner-background.png");
-		background-image: -ms-linear-gradient(top, rgba(24,27,38,1), rgba(24,27,38,1)), url("../../images/banner-background.png");
-		background-image: linear-gradient(top, rgba(24,27,38,1), rgba(24,27,38,1)), url("../../images/banner-background.png");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -4268,6 +4268,7 @@ ul.pagination {
 
   }
 
+
 /* Pre */
 
 pre {
@@ -4284,7 +4285,7 @@ pre {
     font-weight: 500;
     display: block;
     line-height: 1.5em;
-    padding: 1em 1.5em;
+    padding: 1em;
     overflow-x: auto;
   }
 
@@ -4294,7 +4295,7 @@ pre {
     right: 8px;
     border-radius: 8px;
     min-width:10em;
-    background-color:#368780;
+    background-color:#317A74;
     font-family: "Helvetica", sans-serif;
     font-size: 0.65em;
   }
