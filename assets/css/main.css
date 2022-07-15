@@ -4288,35 +4288,35 @@ pre {
 
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
-position: fixed;
-bottom: 0%;
-right: 0%;
-z-index: 1;
-/* -webkit-transform: translateY(-50%);
--ms-transform: translateY(-50%);
-transform: translateY(-50%); */
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+  z-index: 1;
+  /* -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); */
 }
 
   /* Style the icon bar links */
   .icon-bar a {
-  display:block;
-  text-align: center;
-  padding: 0.8em;
-  transition: all 0.2s ease;
-  background-color: #181b26;
-  color: #26ada2;
-  font-size: 1.25em;
+    display:block;
+    text-align: center;
+    padding: 0.8em;
+    transition: all 0.2s ease;
+    background-color: #181b26;
+    color: #26ada2;
+    font-size: 1.25em;
   }
 
   /* Style the social media icons with color, if you want */
   .icon-bar a:hover {
-  background-color: #181b26;
-  color: #b0ddda;
+    background-color: #181b26;
+    color: #b0ddda;
   }
 
-  .facebook {
-    border-radius: 8px 0 0 0;
-  }
+  /* .facebook {
+    border-radius: 10px 0 0 0;
+  } */
 
 /* Blog Title */
 
