@@ -164,12 +164,12 @@ var {
 		line-height: 1.65em;
 	}
 
-		@media screen and (max-width: 1680px) {
+		/* @media screen and (max-width: 1680px) {
 			body, input, select, textarea {
 				font-size: 14pt;
         font-weight: 500;
 			}
-		}
+		} */
 
 		@media screen and (max-width: 1280px) {
 			body, input, select, textarea {
@@ -180,7 +180,7 @@ var {
 
 		@media screen and (max-width: 736px) {
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 12pt;
         font-weight: 500;
 				letter-spacing: 0.0375em;
 			}
@@ -4315,7 +4315,7 @@ transform: translateY(-50%); */
   }
 
   .facebook {
-    border-radius: 10px 0 0 0;
+    border-radius: 8px 0 0 0;
   }
 
 /* Blog Title */
