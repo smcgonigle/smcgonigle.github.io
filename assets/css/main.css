@@ -4251,7 +4251,6 @@ ul.pagination {
       text-align: right;
       padding-left: 0.325em;
     }
-
   }
 
 
@@ -4272,6 +4271,7 @@ pre {
     display: block;
     line-height: 1.5em;
     padding: 1em;
+    margin: 0 7.5em 0 0;
     overflow-x: auto;
   }
 
@@ -4283,7 +4283,7 @@ pre {
     min-width:10em;
     background-color:#317A74;
     font-family: "Helvetica", sans-serif;
-    font-size: 0.65em;
+    font-size: 0.6em;
   }
 
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
