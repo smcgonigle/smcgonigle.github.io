@@ -22,11 +22,13 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: block;
+}
 
 body {
 	line-height: 1;
@@ -2323,17 +2325,17 @@ var {
 
 					ul.actions:not(.fixed) li input[type="submit"],
 					ul.actions:not(.fixed) li input[type="reset"],
-					ul.actions:not(.fixed) li input[type=""],
-					ul.actions:not(.fixed) li ,
-					ul.actions:not(.fixed) li {
+					ul.actions:not(.fixed) li input[type="button"],
+					ul.actions:not(.fixed) li button,
+					ul.actions:not(.fixed) li .button {
 						width: 100%;
 					}
 
 						ul.actions:not(.fixed) li input[type="submit"].icon:before,
 						ul.actions:not(.fixed) li input[type="reset"].icon:before,
-						ul.actions:not(.fixed) li input[type=""].icon:before,
-						ul.actions:not(.fixed) li .icon:before,
-						ul.actions:not(.fixed) li .icon:before {
+						ul.actions:not(.fixed) li input[type="button"].icon:before,
+						ul.actions:not(.fixed) li button.icon:before,
+						ul.actions:not(.fixed) li .button.icon:before {
 							margin-left: -0.5em;
 						}
 
@@ -2439,11 +2441,11 @@ var {
 				border-top: 0;
 			}
 
-/*  */
+/* Button */
 
 	input[type="submit"],
 	input[type="reset"],
-	input[type=""],
+	input[type="button"],
 	button,
 	.button {
 		-moz-appearance: none;
@@ -2539,7 +2541,7 @@ var {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #ef5e4a !important;
+				background-color: #ed4933 !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -2547,7 +2549,7 @@ var {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #eb341c !important;
+				background-color: #CC3E2C !important;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -3593,7 +3595,6 @@ var {
 			position: absolute;
 			right: 0;
 			top: 0;
-      /* vertical-align: middle; */
 			width: 7em;
 		}
 
@@ -3640,6 +3641,7 @@ var {
 			-webkit-transition: opacity 0.2s ease;
 			-ms-transition: opacity 0.2s ease;
 			transition: opacity 0.2s ease;
+      font-size: 1.1em;
 			height: inherit;
 			left: 1.25em;
 			line-height: inherit;
@@ -3653,14 +3655,6 @@ var {
 				height: inherit;
 				line-height: inherit;
 			}
-
-				@media screen and (max-width: 736px) {
-
-					#header h1 a {
-						font-size: 0.9em;
-					}
-
-				}
 
 		#header nav {
 			height: inherit;
@@ -3686,7 +3680,7 @@ var {
 						border: 0;
 						color: #f6f6f6;
 						display: block;
-						font-size: 0.9em;
+						font-size: 1.1em;
 						letter-spacing: 0.225em;
 						padding: 0 1.5em;
 						text-transform: uppercase;
@@ -3703,9 +3697,9 @@ var {
 								background-repeat: no-repeat;
 								content: '';
 								display: inline-block;
-								height: 3.4em;
+								height: 2.95em;
 								vertical-align: top;
-								width: 2em;
+								width: 1.6em;
 							}
 
 							@media screen and (max-width: 736px) {
@@ -3957,7 +3951,6 @@ var {
 		}
 
 		@media screen and (max-width: 1280px) {
-
 			#cta .inner {
 				display: block;
 				text-align: center;
@@ -4016,14 +4009,12 @@ var {
 			#main > header {
         width: 90%;
 			}
-
 		}
 
 		@media screen and (max-width: 980px) {
 			#main > header {
         width: 90%;
 			}
-
 		}
 
 		@media screen and (max-width: 736px) {
@@ -4034,7 +4025,6 @@ var {
 					font-size: 1.25em;
 					margin: 0 0 1em 0;
 				}
-
 		}
 
 	body.is-mobile #main > header {
@@ -4101,7 +4091,6 @@ var {
 						margin: 0;
 						padding: 0.5em 0;
 					}
-
 				}
 
 		@media screen and (max-width: 1280px) {
@@ -4274,13 +4263,13 @@ ul.pagination {
 pre {
   -webkit-overflow-scrolling: touch;
   background-color: #181b26;
-  border-radius: 12px;
+  border-radius: 10px;
   margin: 0 0 1.25em 0;
   position: relative;
 }
 
   pre code {
-    color: #b0ddda;
+    color: #f6f6f6;
     font-family: "Courier New", monospace;
     font-weight: 500;
     display: block;
@@ -4293,7 +4282,7 @@ pre {
     position: absolute;
     top: 8px;
     right: 8px;
-    border-radius: 8px;
+    border-radius: 6px;
     min-width:10em;
     background-color:#317A74;
     font-family: "Helvetica", sans-serif;
@@ -4329,7 +4318,7 @@ transform: translateY(-50%); */
   }
 
   .facebook {
-    border-radius: 12px 0 0 0;
+    border-radius: 10px 0 0 0;
   }
 
 /* Blog Title */
