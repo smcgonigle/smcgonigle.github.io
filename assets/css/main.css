@@ -2344,6 +2344,7 @@ var {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+    font-size: 1.4em;
 	}
 
 		ul.icons li {
@@ -2364,7 +2365,6 @@ var {
 			}
 
 				@media screen and (max-width: 736px) {
-
 					ul.icons.major li {
 						padding: 0 1em !important;
 					}
