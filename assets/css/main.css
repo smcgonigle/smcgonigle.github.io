@@ -4299,7 +4299,7 @@ pre {
 
   /* Style the icon bar links */
   .icon-bar a {
-    display:block;
+    /* display:block; */
     text-align: center;
     padding: 0.8em;
     transition: all 0.2s ease;
