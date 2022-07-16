@@ -317,7 +317,7 @@ var {
 	.row {
 		display: flex;
 		flex-wrap: wrap;
-		box-sizing: border-box;
+		/* box-sizing: border-box; */
 		align-items: stretch;
 	}
 
