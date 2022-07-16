@@ -4253,6 +4253,14 @@ ul.pagination {
     }
   }
 
+  
+/* Blog Title */
+
+.blog {
+  color: #317A74;
+  font-weight: 600;
+}
+
 
 /* Pre */
 
@@ -4301,8 +4309,8 @@ pre {
   .icon-bar a {
     display:block;
     text-align: center;
-    padding: 0.8em;
-    transition: all 0.2s ease;
+    padding: 1.8em;
+    /* transition: all 0.2s ease; */
     background-color: #181b26;
     color: #26ada2;
     font-size: 1.25em;
@@ -4315,12 +4323,5 @@ pre {
   }
 
   .facebook {
-    border-radius: 2px 0 0 0;
+    border-radius: 12px 0 0 0;
   }
-
-/* Blog Title */
-
-.blog {
-  color: #317A74;
-  font-weight: 600;
-}
