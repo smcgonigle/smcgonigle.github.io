@@ -4277,8 +4277,8 @@ pre {
 
   pre button{
     position: absolute;
-    top: 6px;
-    right: 6px;
+    top: 8px;
+    right: 8px;
     border-radius: 6px;
     min-width:10em;
     background-color:#317A74;
@@ -4305,7 +4305,7 @@ pre {
     transition: all 0.2s ease;
     background-color: #181b26;
     color: #26ada2;
-    font-size: 1.25em;
+    font-size: 1.2em;
   }
 
   /* Style the social media icons with color, if you want */
@@ -4315,7 +4315,7 @@ pre {
   }
 
   .facebook {
-    border-radius: 10% 0 0 0;
+    border-radius: 8px 0 0 0;
   }
 
 /* Blog Title */
