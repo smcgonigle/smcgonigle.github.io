@@ -4291,7 +4291,7 @@ pre {
   position: fixed;
   bottom: 0%;
   right: 0%;
-  z-index: 10010;
+  z-index: 1;
   /* -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); */
@@ -4318,7 +4318,6 @@ pre {
     border-radius: 8px 0 0 0;
   }
 
-  
 /* Blog Title */
 
 .blog {
