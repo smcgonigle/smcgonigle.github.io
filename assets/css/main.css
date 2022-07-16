@@ -4254,20 +4254,12 @@ ul.pagination {
   }
 
 
-/* Blog Title */
-
-.blog {
-  color: #317A74;
-  font-weight: 600;
-}
-
-
 /* Pre */
 
 pre {
   -webkit-overflow-scrolling: touch;
   background-color: #181b26;
-  border-radius: 12px;
+  border-radius: 8px;
   margin: 0 0 1.25em 0;
   position: relative;
 }
@@ -4285,8 +4277,8 @@ pre {
 
   pre button{
     position: absolute;
-    top: 8px;
-    right: 8px;
+    top: 6px;
+    right: 6px;
     border-radius: 6px;
     min-width:10em;
     background-color:#317A74;
@@ -4309,8 +4301,8 @@ pre {
   .icon-bar a {
     display:block;
     text-align: center;
-    padding: 1.8em;
-    /* transition: all 0.2s ease; */
+    padding: 0.8em;
+    transition: all 0.2s ease;
     background-color: #181b26;
     color: #26ada2;
     font-size: 1.25em;
@@ -4323,5 +4315,12 @@ pre {
   }
 
   .facebook {
-    border-radius: 12px 0 0 0;
+    border-radius: 10% 0 0 0;
   }
+
+/* Blog Title */
+
+.blog {
+  color: #317A74;
+  font-weight: 600;
+}
