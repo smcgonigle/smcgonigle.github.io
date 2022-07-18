@@ -4306,12 +4306,14 @@ pre {
     background-color: #181b26;
     color: #26ada2;
     font-size: 1.2em;
+    border: 1px solid #181b26;
   }
 
   /* Style the social media icons with color, if you want */
   .icon-bar a:hover {
     background-color: #181b26;
     color: #b0ddda;
+    border: 1px solid #181b26;
   }
 
   .icon-bar .facebook {
