@@ -1,0 +1,564 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en-CA">
+
+	<head>
+
+    <!-- The following 2 meta tags *must* come first in the <head> to consistently ensure proper document rendering.Any other head element should come *after* these tags. -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+
+    <!-- Theme Color for Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#181b26">
+
+    <!--Search Engine Optimization Meta Tags-->
+    <title>Cisco Commands Cheat Sheet</title>
+    <meta name="description" content="Cisco Commands Cheat Sheet">
+
+    <!-- Control the behavior of search engine crawling and indexing -->
+    <meta name="robots" content="index,follow"> <!-- All Search Engines -->
+    <meta name="googlebot" content="index,follow"> <!-- Google Specific -->
+
+    <!-- Gives a general age rating based on the document's content -->
+    <meta name="rating" content="General">
+
+    <!-- Disable automatic detection and formatting of possible phone numbers -->
+    <meta name="format-detection" content="telephone=yes">
+
+    <!-- Geo tags -->
+    <!-- <meta name="ICBM" content="latitude, longitude"> -->
+    <!-- <meta name="geo.position" content="latitude;longitude"> -->
+    <meta name="geo.region" content="CA"> <!-- Country code (ISO 3166-1): mandatory, state code (ISO 3166-2): optional; eg. content="US" / content="US-NY" -->
+    <!-- <meta name="geo.placename" content="city/town"> --> <!-- eg. content="New York City" -->
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://bitwiretech.ca/images/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://bitwiretech.ca/images/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://bitwiretech.ca/images/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://bitwiretech.ca/images/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://bitwiretech.ca/images/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://bitwiretech.ca/images/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://bitwiretech.ca/images/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://bitwiretech.ca/images/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="https://bitwiretech.ca/images/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="https://bitwiretech.ca/images/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="https://bitwiretech.ca/images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://bitwiretech.ca/images/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="https://bitwiretech.ca/images/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="bitwire"/>
+    <meta name="msapplication-TileColor" content="#181B26" />
+    <meta name="msapplication-TileImage" content="https://bitwiretech.ca/images/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="https://bitwiretech.ca/images/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="https://bitwiretech.ca/images/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="https://bitwiretech.ca/images/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="https://bitwiretech.ca/images/mstile-310x310.png" />    
+
+    <!-- Stylesheet -->
+		<link rel="stylesheet" href="/assets/css/main.css" />
+
+    <!-- No Script -->
+		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+
+	</head>
+
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+      <!-- Header -->
+      <header id="header">
+        <h1><a href="/">bitwire</a></h1>
+        <nav id="nav">
+          <ul>
+            <li class="special">
+              <a href="#menu" aria-label="Menu" class="menuToggle"><span>Menu</span></a>
+              <div id="menu">
+                <ul>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/blog">Blog</a></li>
+                  <li><a href="/customers">Our Customers</a></li>
+                  <li><a href="/privacypolicy">Privacy Policy</a></li>
+                  <li><a href="/tos">Terms and Conditions</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Sticky Social Bar  -->
+      <div class="row icon-bar">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://bitwiretech.ca/blog/cisco-commands-cheat-sheet" aria-label="Facebook" target="_blank" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://bitwiretech.ca/blog/cisco-commands-cheat-sheet" aria-label="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://old.reddit.com/submit?url=https://bitwiretech.ca/blog/cisco-commands-cheat-sheet" aria-label="Reddit" target="_blank"><i class="fa-brands fa-reddit"></i></a>
+        <a href="https://www.twitter.com/share?url=https://bitwiretech.ca/blog/cisco-commands-cheat-sheet" aria-label="Twitter" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+
+      <!-- Main -->
+      <article id="main">
+        <header>
+          <p><h2>Cisco Commands Cheat Sheet</h2></p>
+          <span class="image center"><img src="/images/cisco-commands-cheat-sheet.jpg" alt="The internal workings of a hard drive" /></span>
+        </header>
+
+        <section class="wrapper style6">
+          <div class="inner">
+            <div class="blog">
+              Skylar McGonigle | 2022-07-22 | 6 min read 
+              <p>OS: Cisco IOS</p>
+            </div>
+            
+<p>Admin Commands</p>            
+<pre><code><span style="color:#73A65D">! Enables Privileged Mode</span>
+enable
+
+<span style="color:#73A65D">! Writes a configuration</span>
+write
+
+<span style="color:#73A65D">! Reboots the device</span>
+reload
+
+<span style="color:#73A65D">! Reboot in 10 minutes</span>
+reload in 10
+reload cancel
+</pre></code>
+
+<p>ARP (Address Resolution Protocol)</p>           
+<pre><code><span style="color:#73A65D">! Confirm all connected devices are in the ARP table</span>
+show arp
+
+<span style="color:#73A65D">! This will ping all the devices in that subnet and add them to the ARP table</span>
+ping XXX.XXX.XXX.255
+
+<span style="color:#73A65D">! Clear ARP table</span>
+clear arp-cache
+</pre></code>
+
+<p>Backup Config</p>           
+<pre><code>copy running-config flash:Backup-YYYY-MM-DD
+</pre></code>
+
+<p>BGP (Border Gateway Protocol)</p>           
+<pre><code><span style="color:#73A65D">! Resets the BGP</span>
+clear ip bgp
+
+<span style="color:#73A65D">! BGP Logging</span>
+show logging | include bgp
+
+<span style="color:#73A65D">! Show BGP Config</span>
+show run | sec bgp
+
+show ip bgp summary
+show ip bgp neighbors XXX.XXX.XXX.XXX advertised-routes
+</pre></code>
+
+<p>Cancel Commands</p>           
+<pre><code>Ctrl+C
+Ctrl+X
+Ctrl+Shift+6
+</pre></code>
+
+<p>Cellular</p>           
+<pre><code><span style="color:#73A65D">! Display the RSSI</span>
+show cell 0 radio	
+
+<span style="color:#73A65D">! Displays the cellular profile</span>
+show cell 0 profile
+
+<span style="color:#73A65D">! Allows you to make configuration changes</span>
+conf t									      
+  int cell 0
+    shutdown
+    exit
+
+<span style="color:#73A65D">! Change the cellular band</span>
+show cellular radio "interface number" band
+conf t
+  controller_cell "interface number"
+    lte modem band-select band-indices "band" slot ?
+show run | sec controller
+show inventory
+
+<span style="color:#73A65D">! Force the modem to UMTS</span>
+conf t									      
+  int cell 0
+    shutdown
+    end
+cell 0 lte technology umts
+conf t									      
+  int cell 0
+    no shutdown
+    end
+
+<span style="color:#73A65D">! Force the modem to LTE</span>
+conf t									      
+  int cell 0
+    shutdown
+    end
+cell 0 lte technology lte
+conf t									      
+  int cell 0
+    no shutdown
+    end
+
+show cell 0 radio history
+</pre></code>
+
+<p>Clear</p>           
+<pre><code>clear counters gigabitEthernet 1
+</pre></code>
+
+<p>Clock / NTP</p>           
+<pre><code>show clock
+show ntp associations
+show ntp associations detail
+show ntp config
+show ntp 
+show run | sec ntp
+</pre></code>
+
+<p>Configuration</p>           
+<pre><code><span style="color:#73A65D">! Shows the running config</span>
+show run
+
+<span style="color:#73A65D">! Shows software and firmware version</span>
+show version
+</pre></code>
+
+<p>Copy</p>           
+<pre><code><span style="color:#73A65D">! From PC to Device</span>
+copy scp: flash:
+remote host: XXX.XXX.XXX.XXX
+"Username"
+filename: ie4000-universalk9-tar.152-4.EA6.tar
+
+<span style="color:#73A65D">! From Device to PC</span>
+copy flash:/ie40... scp:
+Enter
+XXX.XXX.XXX.XXX
+"Username"
+Enter
+"Password"
+</pre></code>
+
+<p>Crypto / Tunnels</p>           
+<pre><code><span style="color:#73A65D">! Show tunnel stats</span>
+show crypto ipsec sa
+
+<span style="color:#73A65D">! Should display QM_IDLE</span>
+show crypto isakmp sa
+
+<span style="color:#73A65D">! Displays the tunnels</span>
+show crypto ikev2 sa
+
+<span style="color:#73A65D">! Flush the ISAKMP database  </span>
+clear crypto isakmp
+clear crypto ipsec sa
+
+<span style="color:#73A65D">! Resets the tunnels</span>
+clear crypto ikev2 sa
+
+<span style="color:#73A65D">! Clear all crypto sa's</span>
+clear crypto sa
+</pre></code>
+
+<p>Debugging</p>           
+<pre><code><span style="color:#73A65D">! Turn on debugging</span>
+conf t
+  logging console debugging
+  exit
+terminal monitor  
+
+<span style="color:#73A65D">! Debug BGP</span>
+debug ip bgp
+
+<span style="color:#73A65D">! Debug SSH</span>
+debug ip ssh
+
+<span style="color:#73A65D">! Turns on tunnel debug</span>
+debug crypto isakmp
+
+<span style="color:#73A65D">! Checks if the NTP authentication is working</span>
+debug ntp validity
+
+<span style="color:#73A65D">! Turns off all debugging</span>
+undebug all
+conf t
+  no logging console debugging
+  exit
+terminal no monitor
+</pre></code>
+
+<p>Factory Reset / Erase Configuration</p>           
+<pre><code><span style="color:#73A65D">! Soft Reset</span>
+write startup-config
+delete vlan.dat
+reload
+
+<span style="color:#73A65D">! Hard Reset</span>
+<span style="color:#73A65D">! 15.5(3)M5 or Earlier</span>
+The device must be booted to password prompt before you reset the device.
+Once you see the password prompt, long press the reset button for 30 seconds until this message appears.
+
+<span style="color:#73A65D">! 15.6 or Later</span>
+Power off the device and simultaneously press the reset button while you apply power to the device.
+Hold the reset button for about 30 seconds until the Protocol over Ethernet (PoE) light comes on and then release the button.  
+</pre></code>
+
+<p>Hardware Test</p>           
+<pre><code>show env all
+show flash:
+show post
+show version
+</pre></code>
+
+<p>Firmware Update</p>           
+<pre><code><span style="color:#73A65D">! On the PC</span>
+MobaXterm > Servers > TFTP > Point to the directory with the IOS version
+
+<span style="color:#73A65D">! Set the static IP</span>
+10.0.0.10
+255.255.255.0
+Plug into port 1 on the switch
+<span style="color:#73A65D">! May need to enable MobaXterm in the firewall</span>
+
+<span style="color:#73A65D">! On the Swtich</span>
+en
+conf t
+int vlan 10
+ip address 10.0.0.1 255.255.255.0
+no shutdown
+int gig 0/1
+switchport mode access
+switchport access vlan 10
+no shutdown
+end
+
+copy tftp://10.0.0.1/c3560c405ex-universalk9-mz.152-2.E10.bin flash:
+
+<span style="color:#73A65D">! If it's a "bundle" package run the following</span>
+bundle install flash:xxxxx"bundle"xxxxx
+
+conf t
+boot system flash:c3560c405ex-universalk9-mz.152-2.E10.bin
+end
+write
+reload
+</pre></code>
+
+<p>Interfaces</p>           
+<pre><code><span style="color:#73A65D">! List the port status and description</span>
+show interfaces status
+
+<span style="color:#73A65D">! List interface and IP addresses</span>
+show ip int br
+
+<span style="color:#73A65D">! Show interface config</span>
+show run gi 1/1
+
+<span style="color:#73A65D">! Shows all interface configs</span>
+show run | sec int
+
+<span style="color:#73A65D">! Turn on a port</span>
+int gigabitethernet 0
+  no shutdown
+
+<span style="color:#73A65D">! Shutdown a port</span>
+int gigabitethernet 0
+  shutdown
+</pre></code>
+
+<p>LED's</p>           
+<pre><code>show platform led
+</pre></code>
+
+<p>NAT</p>           
+<pre><code>debug ip nat
+terminal monitor
+
+conf t
+interface TunnelXX
+ip nat outside
+exit
+
+interface vlanXX
+ip nat inside
+exit
+
+ip nat inside source static "Inside IP" "Outisde IP" extendable
+</pre></code>
+
+<p>Packet Capture</p>           
+<pre><code><span style="color:#73A65D">! Turn on</span>
+monitor capture buffer BUF size 2048 max-size 1518 linear
+monitor capture point tcp POINT both filter ipv4
+monitor capture point associate POINT BUF
+monitor capture point start POINT
+show monitor capture buffer all parameters
+show monitor capture buffer BUF dump
+
+<span style="color:#73A65D">! Turn off</span>
+monitor capture point stop POINT
+no monitor capture point tcp POINT both filter ipv4
+no monitor capture buffer BUF
+no monitor capture point tcp POINT both filter ipv4
+</pre></code>
+
+<p>Ping</p>           
+<pre><code>ping XXX.XXX.XXX.XXX
+
+<span style="color:#73A65D">! Ping from a VLAN</span>
+ping XXX.XXX.XXX.XXX source vlan1
+
+<span style="color:#73A65D">! Ping from a VRF</span>
+ping vrf OWAN XXX.XXX.XXX.XXX
+</pre></code>
+
+<p>Port Security</p>           
+<pre><code>show port-security
+
+<span style="color:#73A65D">! Displays the port security on the designated port</span>
+show port-security int gig1/9
+
+<span style="color:#73A65D">! Clear port security</span>
+conf t
+  int gig1/1
+    shut
+    no shut
+    end
+</pre></code>
+
+<p>Restore Config</p>           
+<pre><code><span style="color:#73A65D">! Replaces the current configuration with an older one</span>
+config replace flash:Backup-XX-XX-X
+</pre></code>
+
+<p>Routing / Routes</p>           
+<pre><code><span style="color:#73A65D">! Displays all the IP routes</span>
+show ip route
+
+<span style="color:#73A65D">! Lists the routes for a VRF</span>
+show ip route vrf "VRF Name"
+
+<span style="color:#73A65D">! Configuration</span>
+show run | sec ip route
+</pre></code>
+
+<p>Serial</p>           
+<pre><code><span style="color:#73A65D">! Confirm the serial connection</span>
+show raw-socket tcp session
+</pre></code>
+
+<p>SLA</p>           
+<pre><code><span style="color:#73A65D">! Configuration</span>
+show run | sec sla
+
+<span style="color:#73A65D">! Shows the SLA Sumamry</span>
+show ip sla summary
+
+<span style="color:#73A65D">! Shows the status of the SLA</span>
+show track
+
+<span style="color:#73A65D">! Keep alive command</span>
+ip sla 1                            
+      icmp-echo XXX.XXX.XXX.XXX source-interface GigabitEthernet0
+      request-data-size 10
+      frequency 20
+ip sla schedule 1 life forever start-time now
+exit
+</pre></code>
+
+<p>SSH</p>           
+<pre><code>ssh "Username"@XXX.XXX.XXX.XXX
+
+<span style="color:#73A65D">! SSH from a VRF</span>
+ssh -vrf "VRF Name" -l "Username" XXX.XXX.XXX.XXX
+</pre></code>
+
+<p>Transceiver</p>           
+<pre><code><span style="color:#73A65D">! Show optical levels</span>
+show interface gigabitEthernet 1/1 transceiver detail
+</pre></code>
+
+<p>WLAN / Wifi / Wi-fi</p>           
+<pre><code>service-module wlan-ap 0 statistics
+</pre></code>
+
+<p>Turn off domain lookup</p>           
+<pre><code>no ip domain-lookup 		
+</pre></code>
+
+<p>VLAN</p>           
+<pre><code><span style="color:#73A65D">! Change VLAN Name</span>
+conf t
+  vlan 10
+  name LAN
+  end
+write
+
+<span style="color:#73A65D">! Assign IP Address to VLAN</span>
+conf t
+  int vlan 10
+  description LAN
+  no shutdown
+  ip address 192.168.10.3 255.255.255.0
+  end
+write
+
+<span style="color:#73A65D">! Lists Trunk Ports</span>
+show int trunk    	
+
+show vlan
+</pre></code>
+
+<p>VRF (Virtual Routing and Forwarding)</p>           
+<pre><code><span style="color:#73A65D">! Lists the routers VRF's</span>
+show vrf
+
+<span style="color:#73A65D">! Lists the Routes for that VRF</span>
+show ip route vrf "VRF Name"
+</pre></code>
+
+<p>WANMON</p>           
+<pre><code>show run | include wan 
+  event manager environment wanmon_if_list1 {Cellular0 {ipsla 100} }
+  event manager policy tm_wanmon.tcl authorization bypass
+</pre></code>
+
+          </div>
+        </section>
+      </article>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <!-- <ul class="icons">
+          <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+          <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+          <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+          <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+          <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+        </ul> -->
+        <ul class="copyright">
+          <li><a href="/">&copy; Bitwire Technologies</li></a><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/jquery.scrollex.min.js"></script>
+    <script src="/assets/js/jquery.scrolly.min.js"></script>
+    <script src="/assets/js/browser.min.js"></script>
+    <script src="/assets/js/breakpoints.min.js"></script>
+    <script src="/assets/js/util.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/copy-pre.js"></script>
+
+	</body>
+</html>
