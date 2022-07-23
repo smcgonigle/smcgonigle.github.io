@@ -214,7 +214,15 @@ var {
 		margin: 0 0 1.25em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1 {
+		color: #f6f6f6;
+		font-weight: 500;
+		letter-spacing: 0.225em;
+		line-height: 1em;
+		margin: 0 0 1em 0;
+	}  
+
+	h2, h3, h4, h5, h6 {
 		color: #f6f6f6;
 		font-weight: 500;
 		letter-spacing: 0.225em;
@@ -3661,14 +3669,6 @@ var {
         @media screen and (max-width: 736px) {
           #header a.h1Toggle {
             padding: 0 0;
-            background-image: url("images/logo.svg");
-            background-position: left center;
-            background-repeat: no-repeat;
-            content: '';
-            display: inline-block;
-            height: 2.8em;
-            vertical-align: top;
-            width: 1.6em;
           }
             #header a.h1Toggle span {
               display: none;
