@@ -3653,6 +3653,28 @@ var {
 				line-height: inherit;
 			}
 
+      #header a.h1Toggle {
+        outline: 0;
+        position: relative;
+      }
+
+        @media screen and (max-width: 736px) {
+          #header a.h1Toggle {
+            padding: 0 0;
+            background-image: url("images/logo.svg");
+            background-position: left center;
+            background-repeat: no-repeat;
+            content: '';
+            display: inline-block;
+            height: 2.8em;
+            vertical-align: top;
+            width: 1.6em;
+          }
+            #header a.h1Toggle span {
+              display: none;
+            }
+        }
+
 		#header nav {
 			height: inherit;
 			line-height: inherit;
@@ -3694,7 +3716,7 @@ var {
 								background-repeat: no-repeat;
 								content: '';
 								display: inline-block;
-								height: 2.95em;
+								height: 2.8em;
 								vertical-align: top;
 								width: 1.6em;
 							}
