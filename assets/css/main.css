@@ -3667,6 +3667,23 @@ var {
             }
         }
 
+      #header a.h1ToggleIcon {
+        outline: 0;
+        position: relative;
+      }
+        #header a.h1ToggleIcon span {
+          display: none;
+        }
+
+        @media screen and (max-width: 736px) {
+          #header a.h1ToggleIcon {
+            left 1.25em;
+          }
+            #header a.h1ToggleIcon span {
+              display: block;
+            }
+        }
+
 		#header nav {
 			height: inherit;
 			line-height: inherit;
