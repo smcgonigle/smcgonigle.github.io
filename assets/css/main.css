@@ -4311,10 +4311,11 @@ pre {
     top: 8px;
     right: 8px;
     border-radius: 6px;
-    min-width:10em;
+    min-width: 7em;
     background-color:#317A74;
     font-family: "Helvetica", sans-serif;
     font-size: 0.6em;
+    padding: 0 1em;
   }
 
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
