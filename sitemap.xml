@@ -5,29 +5,46 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 <url>
   <loc>https://bitwiretech.ca/</loc>
-  <lastmod>2022-05-13T04:00:47+00:00</lastmod>
+  <lastmod>2022-08-02T05:32:05+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://bitwiretech.ca/blog</loc>
+  <lastmod>2022-08-02T05:32:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://bitwiretech.ca/customers</loc>
-  <lastmod>2022-05-13T04:00:47+00:00</lastmod>
+  <lastmod>2022-08-02T05:32:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://bitwiretech.ca/privacypolicy</loc>
-  <lastmod>2022-05-13T04:00:47+00:00</lastmod>
+  <lastmod>2022-08-02T05:32:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://bitwiretech.ca/tos</loc>
-  <lastmod>2022-05-13T04:00:47+00:00</lastmod>
+  <lastmod>2022-08-02T05:32:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://bitwiretech.ca/reclaim</loc>
-  <lastmod>2022-05-13T04:00:47+00:00</lastmod>
+  <loc>https://bitwiretech.ca/blog/cisco-commands-cheat-sheet</loc>
+  <lastmod>2022-08-02T05:32:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
+<url>
+  <loc>https://bitwiretech.ca/blog/format-a-usb-flash</loc>
+  <lastmod>2022-08-02T05:32:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bitwiretech.ca/customers/reclaim</loc>
+  <lastmod>2022-08-02T05:32:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
 </urlset>
