@@ -3677,7 +3677,7 @@ var {
 
         @media screen and (max-width: 736px) {
           #header a.h1ToggleIcon {
-            left 1.25em;
+            left: 1.25em;
           }
             #header a.h1ToggleIcon span {
               display: block;
