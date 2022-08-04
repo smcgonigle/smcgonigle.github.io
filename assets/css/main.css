@@ -2469,7 +2469,6 @@ var {
 		padding: 0 2em;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
@@ -3462,21 +3461,17 @@ var {
           border-color: #dfdfdf;
         }
   
-        .wrapper.style6 input[type="submit"],
-        .wrapper.style6 input[type="reset"],
         .wrapper.style6 input[type="button"],
         .wrapper.style6 button,
         .wrapper.style6 .button {
           box-shadow: inset 0 0 0 0 #dfdfdf;
         }
   
-          .wrapper.style6 input[type="submit"]:hover,
-          .wrapper.style6 input[type="reset"]:hover,
           .wrapper.style6 input[type="button"]:hover,
           .wrapper.style6 button:hover,
           .wrapper.style6 .button:hover {
             color: #f6f6f6;
-            background: #26ada2;
+            background: #181b26;
           }
   
         @media screen and (max-width: 736px) {
@@ -4302,11 +4297,11 @@ pre {
     display: block;
     line-height: 1.5em;
     padding: 1em;
-    margin: 0 7.5em 0 0;
+    margin: 0 3.5em 0 0;
     overflow-x: auto;
   }
 
-  pre button{
+  /* pre button{
     position: absolute;
     top: 8px;
     right: 8px;
@@ -4316,6 +4311,20 @@ pre {
     font-family: "Helvetica", sans-serif;
     font-size: 0.6em;
     padding: 0 1em;
+  } */
+
+  pre button{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border-radius: 6px;
+    background-color:#181b26;
+    font-family: "Courier New", monospace;
+    font-size: 1.5em;
+    font-weight: 100;
+    padding: 0 0 0 0.2em;
+    height: 1em;
+    line-height: 1em;
   }
 
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
