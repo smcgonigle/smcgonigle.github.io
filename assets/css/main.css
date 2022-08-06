@@ -2017,7 +2017,6 @@ var {
 		border-radius: 3px;
 		border: solid 2px #f6f6f6;
 		margin-bottom: 2em;
-		padding: 1.5em;
 	}
 
 		.box > :last-child,
@@ -2038,6 +2037,9 @@ var {
 			padding: 0;
 		}
 
+    .box img {
+      max-inline-size: 100%;
+		}
 
 /* Icon */
 
