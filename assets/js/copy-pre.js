@@ -1,4 +1,4 @@
-const copyButtonLabel = "\u2398";
+const copyButtonLabel = "\u274F";
 
 // use a class selector if available
 let blocks = document.querySelectorAll("pre");
@@ -20,7 +20,7 @@ async function copyCode(event) {
   let text = code.innerText;
   await navigator.clipboard.writeText(text);
   
-  button.innerText = "Copied";
+  button.innerText = "\u2713";
 
   setTimeout(()=> {
     button.innerText = copyButtonLabel;
