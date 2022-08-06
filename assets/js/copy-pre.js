@@ -1,4 +1,4 @@
-const copyButtonLabel = "\u274F";
+const copyButtonLabel = "\u29C9";
 
 // use a class selector if available
 let blocks = document.querySelectorAll("pre");
