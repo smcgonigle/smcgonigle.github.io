@@ -3650,11 +3650,6 @@ var {
 				line-height: inherit;
 			}
 
-      #header a.h1Toggle {
-        outline: 0;
-        position: relative;
-      }
-
         @media screen and (max-width: 736px) {
           #header a.h1Toggle {
             padding: 0 0;
@@ -3664,22 +3659,19 @@ var {
             }
         }
 
-      #header a.h1ToggleIcon {
-        outline: 0;
-        position: relative;
-      }
-        #header a.h1ToggleIcon span {
-          display: none;
+        #header a.h1ToggleIcon {
         }
-
-        @media screen and (max-width: 736px) {
-          #header a.h1ToggleIcon {
-            left: 1.25em;
+          #header a.h1ToggleIcon span {
+            display: none;
           }
-            #header a.h1ToggleIcon span {
-              display: block;
+
+          @media screen and (max-width: 736px) {
+            #header a.h1ToggleIcon {
             }
-        }
+              #header a.h1ToggleIcon span {
+                display: block;
+              }
+          }
 
 		#header nav {
 			height: inherit;
