@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en-CA">
+
+	<head>
+
+    <!-- The following 2 meta tags *must* come first in the <head> to consistently ensure proper document rendering.Any other head element should come *after* these tags. -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+
+    <!-- Theme Color for Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#181b26">
+
+    <!--Search Engine Optimization Meta Tags-->
+    <title>Format A USB Flash / Hard Drive Using PowerShell</title>
+    <meta name="description" content="How to Format A USB Flash / Hard Drive Using PowerShell">
+
+    <!-- Control the behavior of search engine crawling and indexing -->
+    <meta name="robots" content="index,follow"> <!-- All Search Engines -->
+    <meta name="googlebot" content="index,follow"> <!-- Google Specific -->
+
+    <!-- Gives a general age rating based on the document's content -->
+    <meta name="rating" content="General">
+
+    <!-- Disable automatic detection and formatting of possible phone numbers -->
+    <meta name="format-detection" content="telephone=yes">
+
+    <!-- Geo tags -->
+    <!-- <meta name="ICBM" content="latitude, longitude"> -->
+    <!-- <meta name="geo.position" content="latitude;longitude"> -->
+    <meta name="geo.region" content="CA"> <!-- Country code (ISO 3166-1): mandatory, state code (ISO 3166-2): optional; eg. content="US" / content="US-NY" -->
+    <!-- <meta name="geo.placename" content="city/town"> --> <!-- eg. content="New York City" -->
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://bitwiretech.ca/images/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://bitwiretech.ca/images/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://bitwiretech.ca/images/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://bitwiretech.ca/images/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://bitwiretech.ca/images/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://bitwiretech.ca/images/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://bitwiretech.ca/images/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://bitwiretech.ca/images/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="https://bitwiretech.ca/images/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="https://bitwiretech.ca/images/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="https://bitwiretech.ca/images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://bitwiretech.ca/images/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="https://bitwiretech.ca/images/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="bitwire"/>
+    <meta name="msapplication-TileColor" content="#181B26" />
+    <meta name="msapplication-TileImage" content="https://bitwiretech.ca/images/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="https://bitwiretech.ca/images/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="https://bitwiretech.ca/images/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="https://bitwiretech.ca/images/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="https://bitwiretech.ca/images/mstile-310x310.png" />    
+
+    <!-- Stylesheet -->
+		<link rel="stylesheet" href="/assets/css/main.css" />
+
+    <!-- No Script -->
+		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+
+	</head>
+
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+      <!-- Header -->
+      <header id="header">
+        <h1><span class="row">
+          <a href="/" aria-label="Home" class="h1Toggle">
+            <span>bitwire</span>
+          </a>
+          <a href="/" aria-label="Home" class="h1ToggleIcon">
+            <span>
+              <i class="fa-solid fa-house"></i>
+            </span>
+          </a>
+      </h1>
+        <span class="row aln-center">
+          <span><i class="fa-solid fa-share-nodes"></i></span>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://bitwiretech.ca/blog/cisco-commands-cheat-sheet" aria-label="Facebook" target="_blank" class="facebook"><i class="fa-brands fa-facebook" style="color:#26ada2;"></i></a>
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://bitwiretech.ca/blog/cisco-commands-cheat-sheet" aria-label="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin" style="color:#26ada2;"></i></a>
+          <a href="https://old.reddit.com/submit?url=https://bitwiretech.ca/blog/cisco-commands-cheat-sheet" aria-label="Reddit" target="_blank"><i class="fa-brands fa-reddit" style="color:#26ada2;"></i></a>
+          <a href="https://www.twitter.com/share?url=https://bitwiretech.ca/blog/cisco-commands-cheat-sheet" aria-label="Twitter" target="_blank"><i class="fa-brands fa-twitter" style="color:#26ada2;"></i></a>
+        </span>
+        <nav id="nav">
+          <ul>
+            <li class="special">
+              <a href="#menu" aria-label="Menu" class="menuToggle"><span>Menu</span></a>
+              <div id="menu">
+                <ul>
+                  <li><a href="/" aria-label="Home">Home</a></li>
+                  <li><a href="/blog" aria-label="Blog">Blog</a></li>
+                  <li><a href="/customers" aria-label="Our Customers">Our Customers</a></li>
+                  <li><a href="/privacypolicy" aria-label="Privacy Policy">Privacy Policy</a></li>
+                  <li><a href="/tos" aria-label="Terms and Conditions">Terms and Conditions</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Main -->
+      <article id="main">
+        <header>
+          <p><h2>Format A USB Flash / Hard Drive Using PowerShell</h2></p>
+          <span class="image center"><img src="/images/format-a-usb-flash.jpg" alt="The internal workings of a hard drive" /></span>
+        </header>
+
+        <section class="wrapper style6">
+          <div class="inner">
+            <div class="blog">
+              Skylar McGonigle | 2022-07-11 | 1 min read 
+              <p>OS: Windows 10</p>
+            </div>
+            
+            <p>Ever try to format a USB drive but it says there's only 2MB on a it?  The following steps will resolve the issue.</p>
+
+            <p>Open PowerShell by hitting the "Start" button or <kbd>Windows Key + R</kbd> and typing <em>powershell</em></p>
+            <p>Now run the following commands:</p>
+              
+            <pre><code>diskpart</pre></code>
+              
+            <pre><code>list disk</pre></code>
+
+            <p>Replace the <var>#</var> symbol with the disk number you want.</p>
+            <pre><code>select disk #</code></pre>
+
+            <p>Confirm you have the right disk:</p>
+            <pre><code>detail disk</code></pre>
+
+            <p><strong style="color: red">WARNING: The next action will completely erase all data on the disk. Confirm you have the right disk before continuing.</strong><br></p>
+            <p>Erase the disk:</p>
+            <pre><code>clean</code></pre>
+            <pre><code>create partition primary</code></pre>
+
+            <p>Format the USB Flash Drive (Skip if formatting a hard drive):</p>
+            <pre><code>format fs=fat32 quick</code></pre>
+
+            <p>Format the Hard Drive (Skip if formatting a USB flash drive):</p>
+            <pre><code>format fs=ntfs</code></pre>
+            <pre><code>active</code></pre>
+            <pre><code>assign</code></pre>
+            All Done!
+          </div>
+        </section>
+      </article>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <!-- <ul class="icons">
+          <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+          <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+          <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+          <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+          <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+        </ul> -->
+        <ul class="copyright">
+          <li><a href="/" aria-label="Home">&copy; Bitwire Technologies</li></a><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/jquery.scrollex.min.js"></script>
+    <script src="/assets/js/jquery.scrolly.min.js"></script>
+    <script src="/assets/js/browser.min.js"></script>
+    <script src="/assets/js/breakpoints.min.js"></script>
+    <script src="/assets/js/util.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/copy-pre.js"></script>
+
+	</body>
+</html>

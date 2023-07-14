@@ -23,7 +23,7 @@
 						<nav id="nav">
 							<ul>
 								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<a href="#menu" aria-label="Menu" class="menuToggle"><span>Menu</span></a>
 									<div id="menu">
 										<ul>
 											<li><a href="index.html">Home</a></li>
@@ -38,16 +38,35 @@
 						</nav>
 					</header>
 
+        <!-- Sticky Social Bar -->
+          <!-- <div class="row icon-bar">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://bitwiretech.ca/blog/cisco-commands-cheat-sheet" aria-label="Facebook" target="_blank" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://bitwiretech.ca/blog/cisco-commands-cheat-sheet" aria-label="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://old.reddit.com/submit?url=https://bitwiretech.ca/blog/cisco-commands-cheat-sheet" aria-label="Reddit" target="_blank"><i class="fa-brands fa-reddit"></i></a>
+            <a href="https://www.twitter.com/share?url=https://bitwiretech.ca/blog/cisco-commands-cheat-sheet" aria-label="Twitter" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          </div> -->
+
 				<!-- Main -->
 					<article id="main">
 						<header>
 							<h2>Elements</h2>
 							<p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
 						</header>
+            
 						<section class="wrapper style5">
-							<div class="inner">
+							<div class="inner">         
 
 								<section>
+                  <h4>Color Palette</h4>
+                  <div class="row">
+                    <div class="background col-2">#181b26</div>
+                    <div class="foreground col-2">#f6f6f6</div>
+                    <div class="accent1 col-2">#b0ddda</div>
+                    <div class="accent2 col-2">#6bc5be</div>
+                    <div class="accent3 col-2">#26ada2</div>
+                    <div class="accent4 col-2">#317A74</div>
+                  </div>
+                  <hr />
 									<h4>Text</h4>
 									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
 									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
@@ -334,7 +353,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								<section>
 									<h4>Image</h4>
 									<h5>Fit</h5>
-									<div class="box alt">
+									<div class="box nopadding">
 										<div class="row gtr-50 gtr-uniform">
 											<div class="col-12"><span class="image fit"><img src="images/banner.jpg" alt="" /></span></div>
 											<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
@@ -367,7 +386,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 						<ul class="copyright">
-							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li><a href="/" aria-label="Home">&copy; Bitwire Technologies</li></a><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</footer>
 

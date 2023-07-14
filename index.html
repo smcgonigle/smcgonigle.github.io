@@ -4,239 +4,262 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en-CA">
 
 	<head>
 
-    <!--Recommended Meta Tags-->
+    <!-- The following 2 meta tags *must* come first in the <head> to consistently ensure proper document rendering.Any other head element should come *after* these tags. -->
     <meta charset="utf-8">
-    <meta name="language" content="english">
-    <meta name="author" content="">
-    <meta name="designer" content=””>
-    <meta name="publisher" content=””>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+
+    <!-- Theme Color for Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#181b26">
 
     <!--Search Engine Optimization Meta Tags-->
-    <title>Bitwire Technologies</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name=”robots” content=”index,follow”>
-    <meta name="revisit-after" content="7 days">
+    <title>Bitwire</title>
+    <meta name="description" content="Bitwire Technologies is a tech company based out of Saskatoon, Saskatchewan.">
 
-    <!--Optional Meta Tags-->
-    <meta name="web_author" content="">
-    <meta name="rating" content="general">
-    <meta name="rating" content="safe for kids">
-    <meta name="title" content="Bitwire Technologies">
-    <meta name="copyright" content="Copyright 2021">
-    <meta name="reply-to" content="">
-    <meta name=”city” content=”Saskatoon”>
-    <meta name=”country” content=”Canada”>
+    <!-- Control the behavior of search engine crawling and indexing -->
+    <meta name="robots" content="index,follow"> <!-- All Search Engines -->
+    <meta name="googlebot" content="index,follow"> <!-- Google Specific -->
 
-    <!--Meta Tags for HTML pages on Mobile-->
-    <meta name="format-detection" content="telephone=yes" />
-    <meta name="HandheldFriendly" content="true" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <!-- Gives a general age rating based on the document's content -->
+    <meta name="rating" content="General">
+
+    <!-- Disable automatic detection and formatting of possible phone numbers -->
+    <meta name="format-detection" content="telephone=yes">
+
+    <!-- Geo tags -->
+    <!-- <meta name="ICBM" content="latitude, longitude"> -->
+    <!-- <meta name="geo.position" content="latitude;longitude"> -->
+    <meta name="geo.region" content="CA"> <!-- Country code (ISO 3166-1): mandatory, state code (ISO 3166-2): optional; eg. content="US" / content="US-NY" -->
+    <!-- <meta name="geo.placename" content="city/town"> --> <!-- eg. content="New York City" -->
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://bitwiretech.ca/images/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://bitwiretech.ca/images/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://bitwiretech.ca/images/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://bitwiretech.ca/images/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://bitwiretech.ca/images/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://bitwiretech.ca/images/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://bitwiretech.ca/images/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://bitwiretech.ca/images/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="https://bitwiretech.ca/images/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="https://bitwiretech.ca/images/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="https://bitwiretech.ca/images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://bitwiretech.ca/images/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="https://bitwiretech.ca/images/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="bitwire"/>
+    <meta name="msapplication-TileColor" content="#181B26" />
+    <meta name="msapplication-TileImage" content="https://bitwiretech.ca/images/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="https://bitwiretech.ca/images/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="https://bitwiretech.ca/images/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="https://bitwiretech.ca/images/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="https://bitwiretech.ca/images/mstile-310x310.png" />    
 
     <!-- Stylesheet -->
-		<link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
 
     <!-- No Script -->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
 
 	</head>
 
 	<body class="landing is-preload">
 
 		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+    <div id="page-wrapper">
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="/">bitwire</a></h1>
-						<nav id="nav">
-							<ul>
-								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="/">Home</a></li>
-											<li><a href="privacypolicy">Privacy Policy</a></li>
-											<li><a href="tos">Terms and Conditions</a></li>
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</nav>
-					</header>
+      <!-- Header -->
+      <header id="header" class="alt">
+        <h1><a href="/">bitwire</a></h1>
+        <nav id="nav">
+          <ul>
+            <li class="special">
+              <a href="#menu" aria-label="Menu" class="menuToggle"><span>Menu</span></a>
+              <div id="menu">
+                <ul>
+                  <li><a href="/" aria-label="Home">Home</a></li>
+                  <li><a href="/blog" aria-label="Blog">Blog</a></li>
+                  <li><a href="/customers" aria-label="Our Customers">Our Customers</a></li>
+                  <li><a href="/privacypolicy" aria-label="Privacy Policy">Privacy Policy</a></li>
+                  <li><a href="/tos" aria-label="Terms and Conditions">Terms and Conditions</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-				<!-- Banner -->
-					<section id="banner">
-						<div>
-              <img src="images/logo.png" width=40%>
-							<!-- <p>Another fine responsive<br>
-							site template freebie<br>
-							</p> -->
-						</div>
-						<a href="#contact" class="more scrolly"></a>
-					</section>
+      <!-- Banner -->
+      <section id="banner">
+        <div>
+          <img src="images/logo.png" alt="Bitwire Logo" width=40%>
+        </div>
+        <a href="#contact" aria-label="Contact" class="more scrolly"></a>
+      </section>
 
-        <!-- Contact Us -->
-          <section id="contact" class="wrapper style5">
-            <div class="inner">
-              <h4>Get in Touch</h4>
-              <form method="post" action="https://formspree.io/xnqjdvrk">
-                <div class="row gtr-uniform">
-                  <div class="col-6 col-12-xsmall">
-                    <input type="text" name="Name" id="name" value="" placeholder="Name" required="required">
-                  </div>
-                  <div class="col-6 col-12-xsmall">
-                    <input type="email" name="Email" id="email" value="" placeholder="Email" required="required">
-                  </div>
-                  <div class="col-12">
-                    <textarea name="Message" id="message" placeholder="Enter your message" rows="6" required="required"></textarea>
-                  </div>
-                  <div class="col-12">
-                    <ul class="actions">
-                      <li><input type="submit" value="Send Message" class="primary" /></li>
-                      <li><input type="reset" value="Reset" /></li>
-                    </ul>
-                  </div>
-                  <!-- <div>
-                    <ul class="contact">
-                      <li class="icon solid fa-home">
-                        Untitled Inc<br />
-                        1234 Somewhere Road Suite #2894<br />
-                        Nashville, TN 00000-0000
-                      </li>
-                      <li class="icon solid fa-phone"> (000) 000-0000</li>
-                      <li class="icon solid fa-envelope"><a href="#"> information@untitled.tld</a></li>
-                      <li class="icon brands fa-twitter"><a href="#"> twitter.com/untitled-tld</a></li>
-                      <li class="icon brands fa-facebook-f"><a href="#"> facebook.com/untitled-tld</a></li>
-                      <li class="icon brands fa-instagram"><a href="#"> instagram.com/untitled-tld</a></li>
-                    </ul>
-                  </div> -->
-                </div>
-              </form>
+      <!-- Contact Us -->
+      <section id="contact" class="wrapper style5">
+        <div class="inner">
+          <h4>Get in Touch</h4>
+          <form method="post" action="https://formspree.io/xnqjdvrk">
+            <div class="row gtr-uniform">
+              <div class="col-6 col-12-xsmall">
+                <input type="text" name="Name" id="name" value="" placeholder="Name" required="required">
+              </div>
+              <div class="col-6 col-12-xsmall">
+                <input type="email" name="Email" id="email" value="" placeholder="Email" required="required">
+              </div>
+              <div class="col-12">
+                <textarea name="Message" id="message" placeholder="Enter your message" rows="6" required="required"></textarea>
+              </div>
+              <!-- <div class="col-6 col-12-small">
+                <input type="checkbox" id="human" name="I'm not a robot" required="required">
+                <label for="human">I'm not a robot</label>
+              </div> -->
+              <div class="col-12">
+                <ul class="actions">
+                  <li><input type="submit" value="SEND MESSAGE" class="primary" /></li>
+                  <li><input type="reset" value="RESET" /></li>
+                </ul>
+              </div>
+              <!-- <div>
+                <ul class="contact">
+                  <li class="icon solid fa-home">
+                    Untitled Inc<br />
+                    1234 Somewhere Road Suite #2894<br />
+                    Nashville, TN 00000-0000
+                  </li>
+                  <li class="icon solid fa-phone"> (000) 000-0000</li>
+                  <li class="icon solid fa-envelope"><a href="#"> information@untitled.tld</a></li>
+                  <li class="icon brands fa-twitter"><a href="#"> twitter.com/untitled-tld</a></li>
+                  <li class="icon brands fa-facebook-f"><a href="#"> facebook.com/untitled-tld</a></li>
+                  <li class="icon brands fa-instagram"><a href="#"> instagram.com/untitled-tld</a></li>
+                </ul>
+              </div> -->
             </div>
-          </section>
+          </form>
+        </div>
+      </section>
 
-				<!-- One -->
-					<!-- <section id="one" class="wrapper style1 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Arcu aliquet vel lobortis ata nisl<br />
-								eget augue amet aliquet nisl cep donec</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-							</header>
-							<ul class="icons major">
-								<li><span class="icon fa-gem major style1"><span class="label">Lorem</span></span></li>
-								<li><span class="icon fa-heart major style2"><span class="label">Ipsum</span></span></li>
-								<li><span class="icon solid fa-code major style3"><span class="label">Dolor</span></span></li>
-							</ul>
-						</div>
-					</section> -->
+      <!-- One -->
+      <!-- <section id="one" class="wrapper style1 special">
+        <div class="inner">
+          <header class="major">
+            <h2>Arcu aliquet vel lobortis ata nisl<br />
+            eget augue amet aliquet nisl cep donec</h2>
+            <p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
+            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+          </header>
+          <ul class="icons major">
+            <li><span class="icon fa-gem major style1"><span class="label">Lorem</span></span></li>
+            <li><span class="icon fa-heart major style2"><span class="label">Ipsum</span></span></li>
+            <li><span class="icon solid fa-code major style3"><span class="label">Dolor</span></span></li>
+          </ul>
+        </div>
+      </section> -->
 
-				<!-- Two -->
-					<!-- <section id="two" class="wrapper alt style2">
-						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>Magna primis lobortis<br />
-								sed ullamcorper</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>Tortor dolore feugiat<br />
-								elementum magna</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>Augue eleifend aliquet<br />
-								sed condimentum</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-					</section> -->
+      <!-- Two -->
+      <!-- <section id="two" class="wrapper alt style2">
+        <section class="spotlight">
+          <div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
+            <h2>Magna primis lobortis<br />
+            sed ullamcorper</h2>
+            <p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+          </div>
+        </section>
+        <section class="spotlight">
+          <div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
+            <h2>Tortor dolore feugiat<br />
+            elementum magna</h2>
+            <p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+          </div>
+        </section>
+        <section class="spotlight">
+          <div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
+            <h2>Augue eleifend aliquet<br />
+            sed condimentum</h2>
+            <p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+          </div>
+        </section>
+      </section> -->
 
-				<!-- Three -->
-					<!-- <section id="three" class="wrapper style3 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Accumsan mus tortor nunc aliquet</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-							</header>
-							<ul class="features">
-								<li class="icon fa-paper-plane">
-									<h3>Arcu accumsan</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon solid fa-laptop">
-									<h3>Ac Augue Eget</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon solid fa-code">
-									<h3>Mus Scelerisque</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon solid fa-headphones-alt">
-									<h3>Mauris Imperdiet</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-heart">
-									<h3>Aenean Primis</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-flag">
-									<h3>Tortor Ut</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-							</ul>
-						</div>
-					</section> -->
+      <!-- Three -->
+      <!-- <section id="three" class="wrapper style3 special">
+        <div class="inner">
+          <header class="major">
+            <h2>Accumsan mus tortor nunc aliquet</h2>
+            <p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
+            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+          </header>
+          <ul class="features">
+            <li class="icon fa-paper-plane">
+              <h3>Arcu accumsan</h3>
+              <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+            </li>
+            <li class="icon solid fa-laptop">
+              <h3>Ac Augue Eget</h3>
+              <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+            </li>
+            <li class="icon solid fa-code">
+              <h3>Mus Scelerisque</h3>
+              <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+            </li>
+            <li class="icon solid fa-headphones-alt">
+              <h3>Mauris Imperdiet</h3>
+              <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+            </li>
+            <li class="icon fa-heart">
+              <h3>Aenean Primis</h3>
+              <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+            </li>
+            <li class="icon fa-flag">
+              <h3>Tortor Ut</h3>
+              <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+            </li>
+          </ul>
+        </div>
+      </section> -->
 
-				<!-- CTA -->
-					<!-- <section id="cta" class="wrapper style4">
-						<div class="inner">
-							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
-							</header>
-							<ul class="actions stacked">
-								<li><a href="#" class="button fit primary">Activate</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li>
-							</ul>
-						</div>
-					</section> -->
+      <!-- CTA -->
+      <!-- <section id="cta" class="wrapper style4">
+        <div class="inner">
+          <header>
+            <h2>Arcue ut vel commodo</h2>
+            <p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+          </header>
+          <ul class="actions stacked">
+            <li><a href="#" class="button fit primary">Activate</a></li>
+            <li><a href="#" class="button fit">Learn More</a></li>
+          </ul>
+        </div>
+      </section> -->
 
-				<!-- Footer -->
-					<footer id="footer">
-						<!-- <ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul> -->
-						<ul class="copyright">
-							<li>&copy; Bitwire Technologies</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
+      <!-- Footer -->
+      <footer id="footer">
+        <!-- <ul class="icons">
+          <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+          <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+          <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+          <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+          <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+        </ul> -->
+        <ul class="copyright">
+          <li><a href="/" aria-label="Home">&copy; Bitwire Technologies</li></a><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </footer>
 
-			</div>
+    </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    <!-- Scripts -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/jquery.scrollex.min.js"></script>
+    <script src="/assets/js/jquery.scrolly.min.js"></script>
+    <script src="/assets/js/browser.min.js"></script>
+    <script src="/assets/js/breakpoints.min.js"></script>
+    <script src="/assets/js/util.js"></script>
+    <script src="/assets/js/main.js"></script>
 
 	</body>
 </html>
