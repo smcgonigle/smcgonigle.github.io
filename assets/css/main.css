@@ -160,7 +160,7 @@ var {
     font-family: "Helvetica", sans-serif;
 		font-size: 14pt;
 		font-weight: 500;
-		letter-spacing: 0.05em;
+		/* letter-spacing: 0.025em; */
 		line-height: 1.65em;
 	}
 
@@ -182,7 +182,7 @@ var {
 			body, input, select, textarea {
 				font-size: 12pt;
         font-weight: 500;
-				letter-spacing: 0.0375em;
+				/* letter-spacing: 0.0375em; */
 			}
 		}
 
@@ -221,9 +221,9 @@ var {
 	h1, h2, h3, h4, h5, h6 {
 		color: #f6f6f6;
 		font-weight: 500;
-		letter-spacing: 0.225em;
+		letter-spacing: 0.12em;
 		line-height: 1em;
-		margin: 0 0 1em 0;
+		margin: 0 0 0 0;
 		text-transform: uppercase;
 	}
 
@@ -2473,7 +2473,7 @@ var {
 		font-size: 0.9em;
 		font-weight: 600;
 		height: 3em;
-		letter-spacing: 0.225em;
+		letter-spacing: 0.12em;
 		line-height: 3em;
 		max-width: 30em;
 		padding: 0 2em;
@@ -3572,7 +3572,7 @@ var {
 					display: block;
 					font-size: 0.9em;
           font-weight: 500;
-					letter-spacing: 0.225em;
+					letter-spacing: 0.12em;
 					outline: 0;
 					text-decoration: none;
 					text-transform: uppercase;
@@ -3706,7 +3706,7 @@ var {
 						color: #f6f6f6;
 						display: block;
 						font-size: 1.1em;
-						letter-spacing: 0.225em;
+						letter-spacing: 0.12em;
 						padding: 0 1.5em;
 						text-transform: uppercase;
 					}
@@ -3823,7 +3823,7 @@ var {
 			}
 
 		#banner p {
-			letter-spacing: 0.225em;
+			letter-spacing: 0.12em;
 			text-transform: uppercase;
 		}
 
@@ -3850,7 +3850,7 @@ var {
 			font-size: 0.9em;
 			height: 8.5em;
 			left: 50%;
-			letter-spacing: 0.225em;
+			letter-spacing: 0.12em;
 			margin-left: -8.5em;
 			opacity: 1;
 			outline: 0;
@@ -4021,7 +4021,7 @@ var {
 
 		#main > header p {
 			color: inherit;
-			letter-spacing: 0.225em;
+			letter-spacing: 0.12em;
 			text-transform: uppercase;
 			top: 0;
 		}
@@ -4079,7 +4079,7 @@ var {
 		#footer .copyright {
 			color: rgba(246, 246, 246, 0.5);
 			font-size: 0.9em;
-			letter-spacing: 0.225em;
+			letter-spacing: 0.12em;
 			list-style: none;
 			padding: 0;
 			text-transform: uppercase;
